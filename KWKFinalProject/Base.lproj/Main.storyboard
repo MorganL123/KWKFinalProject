@@ -36,11 +36,11 @@
         <scene sceneID="Uip-wK-kAd">
             <objects>
                 <viewController id="dlx-lc-ahZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="TGF-bc-a1X">
+                    <view key="view" contentMode="scaleToFill" id="TGF-bc-a1X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bsy-wg-kD5">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsy-wg-kD5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4cb-41-6fV">
@@ -127,50 +127,20 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sZ-AK-GSn">
-                                                <rect key="frame" x="86" y="402" width="277" height="441"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyd-Ce-kk2">
+                                                <rect key="frame" x="103" y="615" width="209" height="122"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Fashion is the 3rd leading contributor to pollution, releasing around 10% of greenhouse gas emissions (1.2 billion tons of carbon dioxide) annually. Youth ages 14-18 are becoming a larger target for consumer brands and are increasingly contributing to fast fashion consumption. Additionally, the most prominent fashion consumer group is 18-24 which makes it integral to build sustainable habits when shopping as a teen. 
-
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                                <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="Info"/>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-Qe-39J">
-                                                <rect key="frame" x="103" y="992" width="209" height="122"/>
+                                                <rect key="frame" x="103" y="820" width="209" height="122"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="Challenges"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVM-b9-ZCh">
-                                                <rect key="frame" x="86" y="682" width="242" height="432"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Eco-Friendly Materials
-Fashion, especially fast-producing brands like Shein, contribute to a large amount of waste during creation and after disposal. Items that require chemical treatment, petroleum drilling, or cannot be degraded naturally lead to pollution, gas emissions, and environmental decay. 
-
-Here is a list of sustainable materials to keep in mind while shopping!
-Cotton
-Hemp
-Linen
-Bamboo
-ECONYL 
-Lyocell
-Modal
-
-Eco-Friendly Brands
-
-Girlfriend Collective
-Outerknown
-Everlane
-Nudie Jeans
-Organic Basics
-</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -221,6 +191,28 @@ Organic Basics
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8sZ-AK-GSn">
+                                        <rect key="frame" x="69" y="408" width="277" height="441"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Fashion is the 3rd leading contributor to pollution, releasing around 10% of greenhouse gas emissions (1.2 billion tons of carbon dioxide) annually. Youth ages 14-18 are becoming a larger target for consumer brands and are increasingly contributing to fast fashion consumption. Additionally, the most prominent fashion consumer group is 18-24 which makes it integral to build sustainable habits when shopping as a teen. 
+
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVM-b9-ZCh">
+                                        <rect key="frame" x="69" y="709" width="300" height="455"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Eco-Friendly Materials
+Fashion, especially fast-producing brands like Shein, contribute to a large amount of waste during creation and after disposal. Items that require chemical treatment, petroleum drilling, or cannot be degraded naturally lead to pollution, gas emissions, and environmental decay. 
+Try keeping more environmentally friendly materials in mind while shopping! Some examples are: cotton, hemp, ECONYL, and linen!
+
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -244,7 +236,7 @@ Organic Basics
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3E-Or-g8x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2301" y="136"/>
+            <point key="canvasLocation" x="2298.5507246376815" y="135.9375"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="M0t-v9-VfR">
@@ -264,6 +256,30 @@ Organic Basics
                                         <rect key="frame" x="142" y="402" width="131" height="33"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sl7-eh-inc">
+                                        <rect key="frame" x="66" y="427" width="283" height="296"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Challenge #1: Trend shopping! Don't fall prey to trends. If you plan on buying "trendy" items, put them in a list and come back in three months. You wouldn't  want to buy a sweater to wear only once!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmC-U1-YPb">
+                                        <rect key="frame" x="66" y="609" width="283" height="244"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Challenege #2: When shopping, try looking out for more environmentally friendly materials (natural fibers, or recycled material). These materials can be degradable or were reusing synthetic material.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6m-2M-041">
+                                        <rect key="frame" x="66" y="768" width="283" height="247"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Challenege #3: If possible, try avoiding fast fashion brands and shop for better quality! Don't shop from stores like Shein, H &amp; M, and Forever 21 for one month!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -290,17 +306,17 @@ Organic Basics
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddr-FV-bfm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3038" y="136"/>
+            <point key="canvasLocation" x="3037.68115942029" y="135.9375"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Gm-dM-Vhn">
             <objects>
                 <viewController id="1Rj-h4-Wnr" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="eee-d7-lYy">
+                    <view key="view" contentMode="scaleToFill" id="eee-d7-lYy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8CZ-PE-vt4">
@@ -380,6 +396,16 @@ Organic Basics
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trR-uS-Fka">
+                                        <rect key="frame" x="57" y="412" width="300" height="455"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Of the five most polluting industries in the world, food industries make the list twice, with agriculture at number three, and food retail at number five. Our food consumption has a huge impact on the environment, and it's our job to think about the choices we’re making regarding food. For example, meat consumption is responsible for releasing greenhouse gasses, taking land, and using tons of water. Nowadays, our food comes wrapped in tons of plastic, and shipped across countries, emitting fuel. 
+
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -403,7 +429,7 @@ Organic Basics
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2DT-vq-J4R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4471" y="136"/>
+            <point key="canvasLocation" x="4469.5652173913049" y="135.9375"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tDh-sj-eSp">
@@ -423,6 +449,31 @@ Organic Basics
                                         <rect key="frame" x="120" y="364" width="191" height="33"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKL-9f-sDp">
+                                        <rect key="frame" x="56" y="433" width="303" height="246"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Meatless Monday: Don’t eat meat every Monday for a month. (That’s only four Mondays!) Try incorporating more plant based meals into your diet. If going meatless for the entire day is too hard, try packing meatless lunches every Monday. 
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIG-en-J1M">
+                                        <rect key="frame" x="56" y="583" width="303" height="246"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Reduce purchases with plastic: For the next ten food related items you buy, think about the waste it creates. For example, buy pasta packaged in a cardboard box instead of a plastic bag. Try to make this a habit </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4O-07-8cc">
+                                        <rect key="frame" x="56" y="727" width="303" height="246"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Grow a vegetable: This challenge could take a while. Plant a vegetable from seed. Depending on the vegetable, this could take 1-6 months! Consider what vegetables are local to your area and try planting those. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -449,17 +500,17 @@ Organic Basics
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYY-6E-Jim" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="893"/>
+            <point key="canvasLocation" x="131.8840579710145" y="892.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="17p-XW-L4H">
             <objects>
                 <viewController id="LN1-4E-Daw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Cb5-3e-cLl">
+                    <view key="view" contentMode="scaleToFill" id="Cb5-3e-cLl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-LV-7gH">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-LV-7gH">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W4R-Kp-leL">
@@ -497,11 +548,11 @@ Organic Basics
         <scene sceneID="w1i-Wy-urr">
             <objects>
                 <viewController id="2hk-er-oyK" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5BH-CF-pi6">
+                    <view key="view" contentMode="scaleToFill" id="5BH-CF-pi6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-3w-Qu5">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-3w-Qu5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u26-Cl-bHh">
@@ -610,11 +661,11 @@ Organic Basics
         <scene sceneID="Vqd-Ti-I7e">
             <objects>
                 <viewController id="p2R-OT-Ugw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="gBT-3H-f09">
+                    <view key="view" contentMode="scaleToFill" id="gBT-3H-f09">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="auk-dZ-ZbT">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="auk-dZ-ZbT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fby-4k-r4n">
@@ -791,11 +842,11 @@ Organic Basics
         <scene sceneID="mbw-3J-TK2">
             <objects>
                 <viewController id="bGs-NE-iKh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="s65-UX-FbK">
+                    <view key="view" contentMode="scaleToFill" id="s65-UX-FbK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uH7-9A-lJa">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uH7-9A-lJa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpe-u8-tON">
@@ -893,11 +944,11 @@ Plastics can only be downcycled once or twice before they become unusable, so th
         <scene sceneID="TUw-lX-30b">
             <objects>
                 <viewController id="5Qn-iv-F2E" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="baG-Jz-72q">
+                    <view key="view" contentMode="scaleToFill" id="baG-Jz-72q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ny1-4t-Ku8">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ny1-4t-Ku8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dxz-mz-SBj">
