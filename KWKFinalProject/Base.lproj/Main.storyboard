@@ -36,11 +36,11 @@
         <scene sceneID="Uip-wK-kAd">
             <objects>
                 <viewController id="dlx-lc-ahZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="TGF-bc-a1X">
+                    <view key="view" contentMode="scaleToFill" id="TGF-bc-a1X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bsy-wg-kD5">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsy-wg-kD5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4cb-41-6fV">
@@ -110,7 +110,7 @@
         <scene sceneID="NaV-SO-wbz">
             <objects>
                 <viewController id="Ioi-at-sH7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="l5i-Ym-9Md">
+                    <view key="view" contentMode="scaleToFill" id="l5i-Ym-9Md">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -179,11 +179,11 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
         <scene sceneID="SeB-4C-c1g">
             <objects>
                 <viewController id="3al-q9-fxa" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zz5-U0-QF7">
+                    <view key="view" contentMode="scaleToFill" id="zz5-U0-QF7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QBc-Ew-TV7">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBc-Ew-TV7">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UDl-ya-wup">
@@ -384,11 +384,11 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
         <scene sceneID="tDh-sj-eSp">
             <objects>
                 <viewController id="0Ex-Uh-euj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="2VV-JT-sFV">
+                    <view key="view" contentMode="scaleToFill" id="2VV-JT-sFV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K6p-dM-JVQ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K6p-dM-JVQ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B3w-cD-OqF">
@@ -467,11 +467,11 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
         <scene sceneID="w1i-Wy-urr">
             <objects>
                 <viewController id="2hk-er-oyK" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5BH-CF-pi6">
+                    <view key="view" contentMode="scaleToFill" id="5BH-CF-pi6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-3w-Qu5">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-3w-Qu5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u26-Cl-bHh">
@@ -604,8 +604,8 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDY-92-x0f">
-                                        <rect key="frame" x="49" y="578" width="339" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDY-92-x0f">
+                                        <rect key="frame" x="49" y="421" width="339" height="485"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Transportation is one of the leading factors that contribute to global warming.  In fact, the U.S transportation sector accounts for approximately one third of emissions that have damaged our climate.  When fossil fuels are burnt to produce motor oil, which fuels cars, a great amount of carbon emissions are released as will as toxic chemical pollutants.  To solve the problem, we can lower the amount of fuel being burnt annually by carpooling, walking, using public transportation, etc.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -648,11 +648,11 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
         <scene sceneID="2tz-o9-Npj">
             <objects>
                 <viewController id="Rli-cG-q5i" customClass="TransportationInfoViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="m8D-gV-zhY">
+                    <view key="view" contentMode="scaleToFill" id="m8D-gV-zhY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4t-qF-mWc">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N4t-qF-mWc">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9P-z4-QPM">
@@ -761,11 +761,11 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
         <scene sceneID="mbw-3J-TK2">
             <objects>
                 <viewController id="bGs-NE-iKh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="s65-UX-FbK">
+                    <view key="view" contentMode="scaleToFill" id="s65-UX-FbK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uH7-9A-lJa">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uH7-9A-lJa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpe-u8-tON">
@@ -824,6 +824,16 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZ7-eN-1GO">
+                                        <rect key="frame" x="46" y="456" width="322" height="502"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <mutableString key="text">Upcycling is taking something old and creating something new with a higher value. Instead of throwing away your old things, take a look at them. To you, they seemed like trash. But can you take these items and reuse them? This is the essence of upcycling. 
+Plastics can only be downcycled once or twice before they become unusable, so they end up in a landfill. And manufacturing isn’t the only thing that contributes to carbon emissions, because recycling does too. Using old items to create something new is better than taking the limited natural resources we have. 
+</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -847,7 +857,7 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTH-uG-iSO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="839" y="1568"/>
+            <point key="canvasLocation" x="837.68115942028987" y="1567.6339285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TUw-lX-30b">
@@ -937,6 +947,23 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBg-cl-FZJ">
+                                        <rect key="frame" x="55" y="379" width="277" height="323"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Try one of the challenges in “10 No-Sew Ways to Upcycle Old Clothes” from ehow.com. From turning old sweaters into mittens to transforming an old t-shirt into a tote bag, there are plenty of ways to upcycle clothes without a sewing machine. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQT-sk-qu6">
+                                        <rect key="frame" x="55" y="702" width="311" height="303"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Do you have tons of plastic bottles laying around? Try one of the challenges in “10 Creative Ways to Upcycle Your Plastic Bottles” from treehugger.com. Turn them into bird feeders and windchimes, there are endless possibilities!
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -960,7 +987,7 @@ Fashion, especially fast producing brands like Shein, contribute to a large amou
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AUy-Kl-nMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1567" y="1568"/>
+            <point key="canvasLocation" x="1566.6666666666667" y="1567.6339285714284"/>
         </scene>
     </scenes>
     <resources>
