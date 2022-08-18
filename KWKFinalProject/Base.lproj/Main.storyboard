@@ -117,46 +117,55 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vTY-f0-cPa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="82J-4z-nj4">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Fashion!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGs-Xo-pgD">
-                                        <rect key="frame" x="86" y="402" width="242" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBe-Pq-qNu">
-                                        <rect key="frame" x="104" y="520" width="205" height="106"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Info"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-Qe-39J">
-                                        <rect key="frame" x="100" y="668" width="209" height="122"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Challenges"/>
-                                    </button>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="82J-4z-nj4">
+                                        <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Fashion!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGs-Xo-pgD">
+                                                <rect key="frame" x="86" y="402" width="242" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ytx-MI-MNQ">
+                                                <rect key="frame" x="113" y="546" width="215" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Fashion Sustainability
+Fashion is the 3rd leading contributor of pollution, releasing around 10% of greenhouse gas emissions (1.2 billion tons of carbon dioxide) per year. Youth ages 14-18 are becoming a larger target for consumer brands and are increasingly contributing to fast fashion consumptions. Additionally, the largest fashion consumer group is 18-24 which makes it integral to build sustainable habits when shopping as a teen. 
+
+Eco-Friendly Materials
+Fashion, especially fast producing brands like Shein, contribute to a large amount of waste during creation and after disposal. Items that require chemical treatment, petrolleum drilling, or are unable to be degraded naturally lead to pollution, gas emissions, and environmental decay. 
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-Qe-39J">
+                                                <rect key="frame" x="103" y="992" width="209" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="Challenges"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="pfV-vI-EEC"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="pfV-vI-EEC"/>
+                                    <constraint firstItem="82J-4z-nj4" firstAttribute="width" secondItem="vTY-f0-cPa" secondAttribute="width" id="2qe-yy-XCM"/>
+                                    <constraint firstItem="82J-4z-nj4" firstAttribute="height" secondItem="vTY-f0-cPa" secondAttribute="height" multiplier="1.67411" id="C0e-rL-mRm"/>
                                 </constraints>
-                            </view>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qmc-fZ-h4e"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="vTY-f0-cPa" secondAttribute="bottom" id="C7x-EW-l5U"/>
-                            <constraint firstItem="82J-4z-nj4" firstAttribute="height" secondItem="l5i-Ym-9Md" secondAttribute="height" multiplier="1.67411" id="JnH-7L-x4H"/>
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="top" secondItem="l5i-Ym-9Md" secondAttribute="top" id="NaG-a4-WZw"/>
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="leading" secondItem="qmc-fZ-h4e" secondAttribute="leading" id="Vq1-Ki-iZo"/>
-                            <constraint firstItem="82J-4z-nj4" firstAttribute="width" secondItem="l5i-Ym-9Md" secondAttribute="width" id="a1H-xx-SkW"/>
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="top" secondItem="l5i-Ym-9Md" secondAttribute="top" id="knq-ax-gbJ"/>
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="trailing" secondItem="qmc-fZ-h4e" secondAttribute="trailing" id="yqV-m8-uAB"/>
                         </constraints>
