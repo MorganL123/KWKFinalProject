@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,78 +16,96 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTq-lo-QMh">
-                                <rect key="frame" x="82" y="250" width="251" height="240"/>
+                                <rect key="frame" x="82" y="249" width="251" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Image 8-17-22 at 11.48 PM"/>
+                                <connections>
+                                    <segue destination="dlx-lc-ahZ" kind="show" id="O0l-Om-oCo"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" systemColor="tintColor"/>
+                        <color key="tintColor" systemColor="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="AWM-ZG-ii2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="69.565217391304358" y="138.61607142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="Uip-wK-kAd">
             <objects>
                 <viewController id="dlx-lc-ahZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TGF-bc-a1X">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="TGF-bc-a1X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsy-wg-kD5">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bsy-wg-kD5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4cb-41-6fV">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <rect key="frame" x="0.0" y="-333" width="414" height="1531"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epn-C3-bzI">
-                                        <rect key="frame" x="74" y="789" width="268" height="52"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epn-C3-bzI">
+                                        <rect key="frame" x="75" y="721" width="268" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Transportation"/>
+                                        <connections>
+                                            <segue destination="Rli-cG-q5i" kind="show" id="1an-pA-EoJ"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXy-W6-rcd">
-                                        <rect key="frame" x="74" y="704" width="268" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXy-W6-rcd">
+                                        <rect key="frame" x="73" y="627" width="268" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Trash"/>
+                                        <connections>
+                                            <segue destination="2hk-er-oyK" kind="show" id="N53-oS-K9a"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4E-yq-84G">
-                                        <rect key="frame" x="73" y="878" width="269" height="48"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Upcycling/DIY"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgT-Rt-lHF">
-                                        <rect key="frame" x="73" y="616" width="269" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgT-Rt-lHF">
+                                        <rect key="frame" x="74" y="533" width="269" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Food"/>
+                                        <connections>
+                                            <segue destination="1Rj-h4-Wnr" kind="show" id="ezF-VL-dpm"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DP7-Cn-Sp8">
-                                        <rect key="frame" x="74" y="534" width="268" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DP7-Cn-Sp8">
+                                        <rect key="frame" x="74" y="445" width="268" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Fashion"/>
+                                        <connections>
+                                            <segue destination="Ioi-at-sH7" kind="show" id="dpw-BK-cJD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4E-yq-84G">
+                                        <rect key="frame" x="73" y="812" width="269" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Upcycling/DIY"/>
+                                        <connections>
+                                            <segue destination="5Qn-iv-F2E" kind="show" id="9z2-5s-uye"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="Oip-v6-wCF"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="7GW-04-J5i"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="bsy-wg-kD5" secondAttribute="bottom" id="Axm-vr-g9H"/>
                             <constraint firstItem="bsy-wg-kD5" firstAttribute="trailing" secondItem="7GW-04-J5i" secondAttribute="trailing" id="ChB-rn-PeB"/>
@@ -99,19 +115,22 @@
                             <constraint firstItem="bsy-wg-kD5" firstAttribute="leading" secondItem="7GW-04-J5i" secondAttribute="leading" id="qAX-0h-6Df"/>
                             <constraint firstItem="bsy-wg-kD5" firstAttribute="top" secondItem="TGF-bc-a1X" secondAttribute="top" id="wJO-Jb-umE"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="7GW-04-J5i"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Ba1-UA-isP"/>
+                    <navigationItem key="navigationItem" id="DZt-Xg-Vve"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mi8-K2-SL1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="809" y="139"/>
+            <point key="canvasLocation" x="808.69565217391312" y="138.61607142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NaV-SO-wbz">
             <objects>
                 <viewController id="Ioi-at-sH7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="l5i-Ym-9Md">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vTY-f0-cPa">
@@ -127,22 +146,28 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyd-Ce-kk2">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyd-Ce-kk2">
                                                 <rect key="frame" x="103" y="615" width="209" height="122"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="Info"/>
+                                                <connections>
+                                                    <segue destination="3al-q9-fxa" kind="show" id="092-M9-fs8"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-Qe-39J">
-                                                <rect key="frame" x="103" y="820" width="209" height="122"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-Qe-39J">
+                                                <rect key="frame" x="103" y="820" width="209" height="136"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="Challenges"/>
+                                                <connections>
+                                                    <segue destination="oum-wL-TYq" kind="show" id="FbR-yR-gRU"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="pfV-vI-EEC"/>
                                         </constraints>
@@ -154,8 +179,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="qmc-fZ-h4e"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="vTY-f0-cPa" secondAttribute="bottom" id="C7x-EW-l5U"/>
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="top" secondItem="l5i-Ym-9Md" secondAttribute="top" id="NaG-a4-WZw"/>
@@ -163,7 +187,9 @@
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="top" secondItem="l5i-Ym-9Md" secondAttribute="top" id="knq-ax-gbJ"/>
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="trailing" secondItem="qmc-fZ-h4e" secondAttribute="trailing" id="yqV-m8-uAB"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="qmc-fZ-h4e"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tuH-Hp-2N2"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VZM-BT-pu0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -175,7 +201,7 @@
             <objects>
                 <viewController id="3al-q9-fxa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zz5-U0-QF7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QBc-Ew-TV7">
@@ -214,14 +240,13 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="Nj8-qI-JcG"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="aoV-UZ-95H"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="QBc-Ew-TV7" firstAttribute="leading" secondItem="aoV-UZ-95H" secondAttribute="leading" id="FYH-yG-Zdv"/>
                             <constraint firstItem="QBc-Ew-TV7" firstAttribute="top" secondItem="zz5-U0-QF7" secondAttribute="top" id="Mmf-r1-fzL"/>
@@ -231,7 +256,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="QBc-Ew-TV7" firstAttribute="top" secondItem="zz5-U0-QF7" secondAttribute="top" id="lRf-oD-qNa"/>
                             <constraint firstItem="UDl-ya-wup" firstAttribute="height" secondItem="zz5-U0-QF7" secondAttribute="height" multiplier="1.67411" id="qfG-qd-SSw"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="aoV-UZ-95H"/>
                     </view>
+                    <navigationItem key="navigationItem" id="od0-XW-VnC"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3E-Or-g8x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -243,7 +270,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
             <objects>
                 <viewController id="oum-wL-TYq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Ixy-4W-Jcq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tfh-gJ-jUV">
@@ -284,14 +311,13 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="4b7-S8-V6b"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="ngn-nB-aAZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Mzx-qc-KYo" firstAttribute="width" secondItem="Ixy-4W-Jcq" secondAttribute="width" id="5nN-dP-ZLV"/>
                             <constraint firstItem="tfh-gJ-jUV" firstAttribute="leading" secondItem="ngn-nB-aAZ" secondAttribute="leading" id="6uC-iD-wi2"/>
@@ -301,7 +327,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="tfh-gJ-jUV" firstAttribute="top" secondItem="Ixy-4W-Jcq" secondAttribute="top" id="U07-3c-fwW"/>
                             <constraint firstItem="tfh-gJ-jUV" firstAttribute="top" secondItem="Ixy-4W-Jcq" secondAttribute="top" id="paS-7a-AKg"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="ngn-nB-aAZ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="f2L-8p-hpS"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddr-FV-bfm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -312,11 +340,11 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
         <scene sceneID="4Gm-dM-Vhn">
             <objects>
                 <viewController id="1Rj-h4-Wnr" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eee-d7-lYy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="eee-d7-lYy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8CZ-PE-vt4">
@@ -329,27 +357,33 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaM-7r-gF1">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaM-7r-gF1">
                                         <rect key="frame" x="119" y="518" width="205" height="106"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Info"/>
+                                        <connections>
+                                            <segue destination="mXh-Ve-Cix" kind="show" id="niM-ov-CE2"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ty4-bh-gud">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ty4-bh-gud">
                                         <rect key="frame" x="117" y="689" width="209" height="122"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Challenges"/>
+                                        <connections>
+                                            <segue destination="0Ex-Uh-euj" kind="show" id="wJL-SF-9dx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="3qV-ge-att"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Vh-oz-ysC">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Vh-oz-ysC">
                                 <rect key="frame" x="10" y="-292" width="205" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -357,8 +391,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                 <state key="normal" title="Info"/>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="JhY-CE-LfL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="8CZ-PE-vt4" firstAttribute="height" secondItem="eee-d7-lYy" secondAttribute="height" multiplier="1.67411" id="226-Oh-Uj9"/>
                             <constraint firstItem="eGf-Cf-m9o" firstAttribute="leading" secondItem="JhY-CE-LfL" secondAttribute="leading" id="9oz-d6-HuK"/>
@@ -368,7 +401,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="eGf-Cf-m9o" firstAttribute="top" secondItem="eee-d7-lYy" secondAttribute="top" id="gc6-Kb-4lb"/>
                             <constraint firstItem="eGf-Cf-m9o" firstAttribute="trailing" secondItem="JhY-CE-LfL" secondAttribute="trailing" id="lUW-k5-ZpU"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="JhY-CE-LfL"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8xV-e1-jfQ"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qp9-zi-Svg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -380,7 +415,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
             <objects>
                 <viewController id="mXh-Ve-Cix" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="a08-Rf-ZwA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hE4-KW-SRV">
@@ -396,7 +431,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trR-uS-Fka">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trR-uS-Fka">
                                         <rect key="frame" x="57" y="412" width="300" height="455"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Of the five most polluting industries in the world, food industries make the list twice, with agriculture at number three, and food retail at number five. Our food consumption has a huge impact on the environment, and it's our job to think about the choices we’re making regarding food. For example, meat consumption is responsible for releasing greenhouse gasses, taking land, and using tons of water. Nowadays, our food comes wrapped in tons of plastic, and shipped across countries, emitting fuel. 
@@ -407,14 +442,13 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="uA9-VN-3bx"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="bhn-Qh-nun"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="dDr-cm-XTe" firstAttribute="height" secondItem="a08-Rf-ZwA" secondAttribute="height" multiplier="1.67411" id="1OQ-vx-gNz"/>
                             <constraint firstItem="hE4-KW-SRV" firstAttribute="leading" secondItem="bhn-Qh-nun" secondAttribute="leading" id="4nx-Cq-A17"/>
@@ -424,7 +458,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="hE4-KW-SRV" firstAttribute="trailing" secondItem="bhn-Qh-nun" secondAttribute="trailing" id="hiG-8q-LFz"/>
                             <constraint firstItem="dDr-cm-XTe" firstAttribute="width" secondItem="a08-Rf-ZwA" secondAttribute="width" id="qZh-Zj-MVp"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="bhn-Qh-nun"/>
                     </view>
+                    <navigationItem key="navigationItem" id="raJ-d4-s64"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2DT-vq-J4R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -436,7 +472,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
             <objects>
                 <viewController id="0Ex-Uh-euj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="2VV-JT-sFV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K6p-dM-JVQ">
@@ -478,14 +514,13 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="vyy-o9-wHd"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="7DZ-GI-3GX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="K6p-dM-JVQ" secondAttribute="bottom" id="Avh-nz-5cz"/>
                             <constraint firstItem="K6p-dM-JVQ" firstAttribute="top" secondItem="2VV-JT-sFV" secondAttribute="top" id="GAG-wj-dpn"/>
@@ -495,7 +530,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="K6p-dM-JVQ" firstAttribute="leading" secondItem="7DZ-GI-3GX" secondAttribute="leading" id="hGs-CX-jQN"/>
                             <constraint firstItem="B3w-cD-OqF" firstAttribute="height" secondItem="2VV-JT-sFV" secondAttribute="height" multiplier="1.67411" id="rUL-DY-gU8"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="7DZ-GI-3GX"/>
                     </view>
+                    <navigationItem key="navigationItem" id="QcN-Sf-iUE"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYY-6E-Jim" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -526,8 +563,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="10t-AW-Sti"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="W4R-Kp-leL" firstAttribute="height" secondItem="Cb5-3e-cLl" secondAttribute="height" multiplier="1.67411" id="1ZJ-IT-C7a"/>
                             <constraint firstItem="W4R-Kp-leL" firstAttribute="width" secondItem="Cb5-3e-cLl" secondAttribute="width" id="B4Z-pd-ZHf"/>
@@ -537,6 +573,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="bdb-LV-7gH" firstAttribute="top" secondItem="Cb5-3e-cLl" secondAttribute="top" id="oLk-sE-78O"/>
                             <constraint firstItem="bdb-LV-7gH" firstAttribute="trailing" secondItem="10t-AW-Sti" secondAttribute="trailing" id="x4D-43-gPb"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="10t-AW-Sti"/>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
@@ -548,11 +585,11 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
         <scene sceneID="w1i-Wy-urr">
             <objects>
                 <viewController id="2hk-er-oyK" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5BH-CF-pi6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5BH-CF-pi6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-3w-Qu5">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-3w-Qu5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u26-Cl-bHh">
@@ -565,27 +602,33 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJK-tO-dD0">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJK-tO-dD0">
                                         <rect key="frame" x="119" y="518" width="205" height="106"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Info"/>
+                                        <connections>
+                                            <segue destination="Cqr-8d-or6" kind="show" id="1oF-Zk-5pz"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYj-dk-PKx">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYj-dk-PKx">
                                         <rect key="frame" x="117" y="689" width="209" height="122"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Challenges"/>
+                                        <connections>
+                                            <segue destination="bGs-NE-iKh" kind="show" id="zmt-Sr-CfI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="Iw3-Ob-jpZ"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYx-Jt-Qck">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYx-Jt-Qck">
                                 <rect key="frame" x="10" y="-292" width="205" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -593,8 +636,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                 <state key="normal" title="Info"/>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="K7j-FU-9fq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="dv1-3w-Qu5" firstAttribute="leading" secondItem="K7j-FU-9fq" secondAttribute="leading" id="B9N-SN-dCa"/>
                             <constraint firstItem="dv1-3w-Qu5" firstAttribute="trailing" secondItem="K7j-FU-9fq" secondAttribute="trailing" id="JTv-up-0fw"/>
@@ -604,7 +646,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="u26-Cl-bHh" firstAttribute="width" secondItem="5BH-CF-pi6" secondAttribute="width" id="qo2-Pw-gEE"/>
                             <constraint firstItem="dv1-3w-Qu5" firstAttribute="top" secondItem="5BH-CF-pi6" secondAttribute="top" id="r4V-cT-MrV"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="K7j-FU-9fq"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Y62-45-tru"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XiH-5i-Pe5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -616,7 +660,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
             <objects>
                 <viewController id="Cqr-8d-or6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="oNP-hK-t1R">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XiC-Gs-mwf">
@@ -633,14 +677,13 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="BzU-L4-gQc"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="YHc-ML-DuB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="WYc-lN-kKP" firstAttribute="height" secondItem="oNP-hK-t1R" secondAttribute="height" multiplier="1.67411" id="Km4-2u-OvZ"/>
                             <constraint firstItem="XiC-Gs-mwf" firstAttribute="top" secondItem="oNP-hK-t1R" secondAttribute="top" id="NQ9-Bq-ybM"/>
@@ -650,7 +693,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstAttribute="bottom" secondItem="XiC-Gs-mwf" secondAttribute="bottom" id="pZi-Qh-Y6p"/>
                             <constraint firstItem="XiC-Gs-mwf" firstAttribute="top" secondItem="oNP-hK-t1R" secondAttribute="top" id="plO-kU-WOi"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="YHc-ML-DuB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="shz-Z2-kUA"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWQ-VZ-eBO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -661,11 +706,11 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
         <scene sceneID="Vqd-Ti-I7e">
             <objects>
                 <viewController id="p2R-OT-Ugw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gBT-3H-f09">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="gBT-3H-f09">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="auk-dZ-ZbT">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="auk-dZ-ZbT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fby-4k-r4n">
@@ -694,7 +739,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="HDz-6A-tN0"/>
                                 </constraints>
@@ -707,8 +752,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="yB4-3Y-yxA"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="auk-dZ-ZbT" firstAttribute="leading" secondItem="yB4-3Y-yxA" secondAttribute="leading" id="5tO-4b-K9o"/>
                             <constraint firstAttribute="bottom" secondItem="auk-dZ-ZbT" secondAttribute="bottom" id="6pa-R7-XQI"/>
@@ -718,7 +762,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="fby-4k-r4n" firstAttribute="height" secondItem="gBT-3H-f09" secondAttribute="height" multiplier="1.67411" id="vGk-xe-9eX"/>
                             <constraint firstItem="auk-dZ-ZbT" firstAttribute="top" secondItem="gBT-3H-f09" secondAttribute="top" id="zn9-ZD-4Ba"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="yB4-3Y-yxA"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ED8-Os-hUF"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lT6-D8-lMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -730,7 +776,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
             <objects>
                 <viewController id="Rli-cG-q5i" customClass="TransportationInfoViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="m8D-gV-zhY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4t-qF-mWc">
@@ -739,19 +785,25 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9P-z4-QPM">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQi-wb-Mqb">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQi-wb-Mqb">
                                         <rect key="frame" x="119" y="518" width="205" height="106"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Info"/>
+                                        <connections>
+                                            <segue destination="p2R-OT-Ugw" kind="show" id="8dT-dD-pZ3"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEh-NG-bGA">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEh-NG-bGA">
                                         <rect key="frame" x="117" y="689" width="209" height="122"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Challenges"/>
+                                        <connections>
+                                            <segue destination="Yy2-cf-cKy" kind="show" id="5fm-wg-3mr"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SX-lb-drY">
                                         <rect key="frame" x="54" y="395" width="307" height="33"/>
@@ -761,12 +813,12 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="hm2-X6-QuO"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rte-Ex-kPh">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rte-Ex-kPh">
                                 <rect key="frame" x="10" y="-292" width="205" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -774,8 +826,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                 <state key="normal" title="Info"/>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="QMH-Zw-E1c"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="N4t-qF-mWc" firstAttribute="top" secondItem="m8D-gV-zhY" secondAttribute="top" id="C0F-0u-Nsx"/>
                             <constraint firstAttribute="bottom" secondItem="N4t-qF-mWc" secondAttribute="bottom" id="ITZ-RF-13c"/>
@@ -785,7 +836,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="N4t-qF-mWc" firstAttribute="leading" secondItem="QMH-Zw-E1c" secondAttribute="leading" id="vU1-Vq-voJ"/>
                             <constraint firstItem="N4t-qF-mWc" firstAttribute="trailing" secondItem="QMH-Zw-E1c" secondAttribute="trailing" id="xvM-w1-62R"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="QMH-Zw-E1c"/>
                     </view>
+                    <navigationItem key="navigationItem" id="vdl-Ll-eXs"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JVh-g4-Pph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -797,7 +850,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
             <objects>
                 <viewController id="Yy2-cf-cKy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="IHk-ui-jgm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Zo-hg-ifE">
@@ -813,15 +866,35 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge  #2: Cycle or walk to school for a month" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjP-w3-9Ib">
+                                        <rect key="frame" x="38" y="588" width="339" height="147"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge  #3: Spread knowledge about sustainable transportation to five other people!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcA-xx-aXV">
+                                        <rect key="frame" x="38" y="677" width="339" height="147"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge  #1: Carpool with two or more people for a week           " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAl-e3-ofb">
+                                        <rect key="frame" x="36" y="504" width="339" height="147"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="vQP-H9-pFA"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="WWC-C6-XM8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="h0F-Mb-W59" firstAttribute="height" secondItem="IHk-ui-jgm" secondAttribute="height" multiplier="1.67411" id="4KF-7l-50u"/>
                             <constraint firstItem="1Zo-hg-ifE" firstAttribute="leading" secondItem="WWC-C6-XM8" secondAttribute="leading" id="FGf-UM-6JU"/>
@@ -831,22 +904,24 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="1Zo-hg-ifE" firstAttribute="trailing" secondItem="WWC-C6-XM8" secondAttribute="trailing" id="Z50-ij-KP6"/>
                             <constraint firstItem="1Zo-hg-ifE" firstAttribute="top" secondItem="IHk-ui-jgm" secondAttribute="top" id="xaR-MR-4V7"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="WWC-C6-XM8"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5iT-4G-Or3"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2g-Yw-NmF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4378" y="903"/>
+            <point key="canvasLocation" x="4376.811594202899" y="902.67857142857133"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mbw-3J-TK2">
             <objects>
                 <viewController id="bGs-NE-iKh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="s65-UX-FbK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="s65-UX-FbK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uH7-9A-lJa">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uH7-9A-lJa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpe-u8-tON">
@@ -860,14 +935,13 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="hfK-qN-Xu6"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="XZR-1r-3vV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="uH7-9A-lJa" secondAttribute="bottom" id="8mr-qL-Bug"/>
                             <constraint firstItem="uH7-9A-lJa" firstAttribute="top" secondItem="s65-UX-FbK" secondAttribute="top" id="Cg8-g5-N0i"/>
@@ -877,7 +951,9 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
                             <constraint firstItem="Wpe-u8-tON" firstAttribute="width" secondItem="s65-UX-FbK" secondAttribute="width" id="Znk-Fr-yn7"/>
                             <constraint firstItem="Wpe-u8-tON" firstAttribute="height" secondItem="s65-UX-FbK" secondAttribute="height" multiplier="1.67411" id="eTm-f5-aRh"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="XZR-1r-3vV"/>
                     </view>
+                    <navigationItem key="navigationItem" id="QRu-gf-Zx4"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T50-81-uRw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -889,7 +965,7 @@ Try keeping more environmentally friendly materials in mind while shopping! Some
             <objects>
                 <viewController id="E17-Xs-Cy2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="lvl-tY-LIm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xc9-SX-GOP">
@@ -916,14 +992,13 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="z1q-kU-jGI"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="LGd-Tp-OPE"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Xc9-SX-GOP" firstAttribute="trailing" secondItem="LGd-Tp-OPE" secondAttribute="trailing" id="3Ta-QL-8S4"/>
                             <constraint firstItem="1sz-PT-cWw" firstAttribute="height" secondItem="lvl-tY-LIm" secondAttribute="height" multiplier="1.67411" id="7Qx-bY-67Y"/>
@@ -933,7 +1008,9 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                             <constraint firstAttribute="bottom" secondItem="Xc9-SX-GOP" secondAttribute="bottom" id="rMe-We-ya1"/>
                             <constraint firstItem="Xc9-SX-GOP" firstAttribute="leading" secondItem="LGd-Tp-OPE" secondAttribute="leading" id="wsb-Vd-CBZ"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="LGd-Tp-OPE"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3fh-kB-ZJA"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTH-uG-iSO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -944,29 +1021,35 @@ Plastics can only be downcycled once or twice before they become unusable, so th
         <scene sceneID="TUw-lX-30b">
             <objects>
                 <viewController id="5Qn-iv-F2E" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="baG-Jz-72q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="baG-Jz-72q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ny1-4t-Ku8">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ny1-4t-Ku8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dxz-mz-SBj">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ch9-Dl-cXZ">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ch9-Dl-cXZ">
                                         <rect key="frame" x="119" y="518" width="205" height="106"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Info"/>
+                                        <connections>
+                                            <segue destination="E17-Xs-Cy2" kind="show" id="zaX-WY-yRU"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Src-77-ggz">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Src-77-ggz">
                                         <rect key="frame" x="117" y="689" width="209" height="122"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Challenges"/>
+                                        <connections>
+                                            <segue destination="7DG-36-xVj" kind="show" id="hhV-Ic-Y57"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to upcycling!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heh-mu-eV6">
                                         <rect key="frame" x="54" y="395" width="263" height="33"/>
@@ -976,12 +1059,12 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="04v-4W-bMm"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4C-cf-aiz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4C-cf-aiz">
                                 <rect key="frame" x="10" y="-292" width="205" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -989,8 +1072,7 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                                 <state key="normal" title="Info"/>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="QKj-Hi-ahI"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="ny1-4t-Ku8" secondAttribute="bottom" id="0zA-5b-MtJ"/>
                             <constraint firstItem="ny1-4t-Ku8" firstAttribute="top" secondItem="baG-Jz-72q" secondAttribute="top" id="4YK-ZJ-DWZ"/>
@@ -1000,7 +1082,9 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                             <constraint firstItem="Dxz-mz-SBj" firstAttribute="width" secondItem="baG-Jz-72q" secondAttribute="width" id="b44-xg-9kk"/>
                             <constraint firstItem="ny1-4t-Ku8" firstAttribute="trailing" secondItem="QKj-Hi-ahI" secondAttribute="trailing" id="kQE-MC-xXq"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="QKj-Hi-ahI"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Qlf-WK-UqZ"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ux-DV-5lU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1012,7 +1096,7 @@ Plastics can only be downcycled once or twice before they become unusable, so th
             <objects>
                 <viewController id="7DG-36-xVj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="rPj-Ni-F8U">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9f5-yc-dH2">
@@ -1046,14 +1130,13 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="Bu5-DR-GDf"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="hXU-kM-1gL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="9f5-yc-dH2" firstAttribute="top" secondItem="rPj-Ni-F8U" secondAttribute="top" id="0Tb-FD-Lpt"/>
                             <constraint firstItem="VFg-h5-vGZ" firstAttribute="height" secondItem="rPj-Ni-F8U" secondAttribute="height" multiplier="1.67411" id="1SE-sD-SPi"/>
@@ -1063,7 +1146,9 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                             <constraint firstItem="VFg-h5-vGZ" firstAttribute="width" secondItem="rPj-Ni-F8U" secondAttribute="width" id="nKq-qM-D3L"/>
                             <constraint firstItem="9f5-yc-dH2" firstAttribute="top" secondItem="rPj-Ni-F8U" secondAttribute="top" id="s1H-lA-zFI"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="hXU-kM-1gL"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9UR-bz-MMG"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AUy-Kl-nMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1074,11 +1159,5 @@ Plastics can only be downcycled once or twice before they become unusable, so th
     <resources>
         <image name="Image 8-17-22 at 11.48 PM" width="454" height="422"/>
         <image name="Untitled design" width="1728" height="2304"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>
