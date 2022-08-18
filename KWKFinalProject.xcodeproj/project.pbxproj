@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2A30E2128AEE7DB00CA9837 /* FashionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A30E2028AEE7DB00CA9837 /* FashionInfoViewController.swift */; };
 		B2C2D99928AC1B3100DCABA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2D99828AC1B3100DCABA3 /* AppDelegate.swift */; };
 		B2C2D99B28AC1B3100DCABA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2D99A28AC1B3100DCABA3 /* SceneDelegate.swift */; };
 		B2C2D99D28AC1B3100DCABA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2D99C28AC1B3100DCABA3 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2A30E2028AEE7DB00CA9837 /* FashionInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionInfoViewController.swift; sourceTree = "<group>"; };
 		B2C2D99528AC1B3100DCABA3 /* KWKFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWKFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C2D99828AC1B3100DCABA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C2D99A28AC1B3100DCABA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				B2C2D9AF28ADEB6600DCABA3 /* TransportationInfoViewController.swift */,
 				B2C2D99E28AC1B3100DCABA3 /* Main.storyboard */,
 				EFAC971528AEBB04002F1710 /* PathwayViewController.swift */,
+				B2A30E2028AEE7DB00CA9837 /* FashionInfoViewController.swift */,
 				B2C2D9A428AC1B3500DCABA3 /* Assets.xcassets */,
 				B2C2D9A628AC1B3500DCABA3 /* LaunchScreen.storyboard */,
 				B2C2D9A928AC1B3500DCABA3 /* Info.plist */,
@@ -150,6 +153,7 @@
 				B2C2D99D28AC1B3100DCABA3 /* ViewController.swift in Sources */,
 				B2C2D99928AC1B3100DCABA3 /* AppDelegate.swift in Sources */,
 				B2C2D9A328AC1B3100DCABA3 /* KWKFinalProject.xcdatamodeld in Sources */,
+				B2A30E2128AEE7DB00CA9837 /* FashionInfoViewController.swift in Sources */,
 				EFAC971628AEBB04002F1710 /* PathwayViewController.swift in Sources */,
 				B2C2D9B028ADEB6600DCABA3 /* TransportationInfoViewController.swift in Sources */,
 				B2C2D99B28AC1B3100DCABA3 /* SceneDelegate.swift in Sources */,

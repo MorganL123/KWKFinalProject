@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,17 +16,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTq-lo-QMh">
-                                <rect key="frame" x="82" y="249" width="251" height="240"/>
+                                <rect key="frame" x="82" y="263" width="251" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Image 8-17-22 at 11.48 PM"/>
                                 <connections>
                                     <segue destination="dlx-lc-ahZ" kind="show" id="O0l-Om-oCo"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="45-450759_flat-cartoon-trees-salesforce-twentypine-pine-tree-cartoon (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Nit-y4-BcC">
+                                <rect key="frame" x="-67" y="569" width="379" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="45-450759_flat-cartoon-trees-salesforce-twentypine-pine-tree-cartoon (1)" translatesAutoresizingMaskIntoConstraints="NO" id="wyf-bW-YMw">
+                                <rect key="frame" x="121" y="553" width="328" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" systemColor="tintColor"/>
+                        <color key="tintColor" systemColor="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="AWM-ZG-ii2"/>
                 </viewController>
@@ -40,84 +46,56 @@
         <scene sceneID="Uip-wK-kAd">
             <objects>
                 <viewController id="dlx-lc-ahZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="TGF-bc-a1X">
+                    <view key="view" contentMode="scaleToFill" id="TGF-bc-a1X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bsy-wg-kD5">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4cb-41-6fV">
-                                <rect key="frame" x="0.0" y="-333" width="414" height="1531"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z1f-Rc-lyw">
+                                <rect key="frame" x="8" y="-224" width="414" height="1400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epn-C3-bzI">
-                                        <rect key="frame" x="75" y="721" width="268" height="52"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xq-QR-j2b">
+                                        <rect key="frame" x="65" y="632" width="268" height="76"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.34054738280000002" green="0.79632651809999999" blue="0.59931010009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Transportation"/>
-                                        <connections>
-                                            <segue destination="Rli-cG-q5i" kind="show" id="1an-pA-EoJ"/>
-                                        </connections>
+                                        <state key="normal" title="Transportation">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXy-W6-rcd">
-                                        <rect key="frame" x="73" y="627" width="268" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6RT-nT-K5B">
+                                        <rect key="frame" x="67" y="519" width="269" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.34054738280000002" green="0.79632651809999999" blue="0.59931010009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Trash"/>
-                                        <connections>
-                                            <segue destination="2hk-er-oyK" kind="show" id="N53-oS-K9a"/>
-                                        </connections>
+                                        <state key="normal" title="Food">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgT-Rt-lHF">
-                                        <rect key="frame" x="74" y="533" width="269" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dh1-Yy-WRz">
+                                        <rect key="frame" x="67" y="402" width="268" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.34054738280000002" green="0.79632651809999999" blue="0.59931010009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Food"/>
-                                        <connections>
-                                            <segue destination="1Rj-h4-Wnr" kind="show" id="ezF-VL-dpm"/>
-                                        </connections>
+                                        <state key="normal" title="Fashion">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DP7-Cn-Sp8">
-                                        <rect key="frame" x="74" y="445" width="268" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L84-Kd-w1n">
+                                        <rect key="frame" x="65" y="758" width="269" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.34054738280000002" green="0.79632651809999999" blue="0.59931010009999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Fashion"/>
-                                        <connections>
-                                            <segue destination="Ioi-at-sH7" kind="show" id="dpw-BK-cJD"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4E-yq-84G">
-                                        <rect key="frame" x="73" y="812" width="269" height="48"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Upcycling/DIY"/>
-                                        <connections>
-                                            <segue destination="5Qn-iv-F2E" kind="show" id="9z2-5s-uye"/>
-                                        </connections>
+                                        <state key="normal" title="Upcycling/DIY">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="Oip-v6-wCF"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="7GW-04-J5i"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="bsy-wg-kD5" secondAttribute="bottom" id="Axm-vr-g9H"/>
-                            <constraint firstItem="bsy-wg-kD5" firstAttribute="trailing" secondItem="7GW-04-J5i" secondAttribute="trailing" id="ChB-rn-PeB"/>
-                            <constraint firstItem="4cb-41-6fV" firstAttribute="width" secondItem="TGF-bc-a1X" secondAttribute="width" id="Gwc-Dl-t9K"/>
-                            <constraint firstItem="4cb-41-6fV" firstAttribute="height" secondItem="TGF-bc-a1X" secondAttribute="height" multiplier="1.67411" id="QUa-Np-dL4"/>
-                            <constraint firstItem="bsy-wg-kD5" firstAttribute="top" secondItem="TGF-bc-a1X" secondAttribute="top" id="agK-jC-z0f"/>
-                            <constraint firstItem="bsy-wg-kD5" firstAttribute="leading" secondItem="7GW-04-J5i" secondAttribute="leading" id="qAX-0h-6Df"/>
-                            <constraint firstItem="bsy-wg-kD5" firstAttribute="top" secondItem="TGF-bc-a1X" secondAttribute="top" id="wJO-Jb-umE"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Ba1-UA-isP"/>
                     <navigationItem key="navigationItem" id="DZt-Xg-Vve"/>
@@ -131,58 +109,64 @@
         <scene sceneID="NaV-SO-wbz">
             <objects>
                 <viewController id="Ioi-at-sH7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="l5i-Ym-9Md">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="l5i-Ym-9Md">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vTY-f0-cPa">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vTY-f0-cPa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="82J-4z-nj4">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82J-4z-nj4">
                                         <rect key="frame" x="0.0" y="-303" width="414" height="1500"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Fashion!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGs-Xo-pgD">
-                                                <rect key="frame" x="86" y="402" width="242" height="33"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyd-Ce-kk2">
+                                                <rect key="frame" x="71" y="650" width="273" height="117"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyd-Ce-kk2">
-                                                <rect key="frame" x="103" y="615" width="209" height="122"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="Info"/>
+                                                <color key="backgroundColor" red="0.2199782431" green="0.6401925087" blue="0.64614725110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                                <state key="normal" title="Info">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
                                                     <segue destination="3al-q9-fxa" kind="show" id="092-M9-fs8"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-Qe-39J">
-                                                <rect key="frame" x="103" y="820" width="209" height="136"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Fashion!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGs-Xo-pgD">
+                                                <rect key="frame" x="35" y="516" width="379" height="110"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="Challenges"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gat-Qe-39J">
+                                                <rect key="frame" x="71" y="803" width="273" height="124"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2199782431" green="0.6401925087" blue="0.64614725110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                                <state key="normal" title="Challenges">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
                                                     <segue destination="oum-wL-TYq" kind="show" id="FbR-yR-gRU"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="pfV-vI-EEC"/>
+                                            <constraint firstAttribute="height" constant="1500" id="Fxg-I1-b4Z"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="82J-4z-nj4" firstAttribute="width" secondItem="vTY-f0-cPa" secondAttribute="width" id="2qe-yy-XCM"/>
-                                    <constraint firstItem="82J-4z-nj4" firstAttribute="height" secondItem="vTY-f0-cPa" secondAttribute="height" multiplier="1.67411" id="C0e-rL-mRm"/>
+                                    <constraint firstAttribute="trailing" secondItem="82J-4z-nj4" secondAttribute="trailing" id="7Zv-ln-k5z"/>
+                                    <constraint firstAttribute="bottom" secondItem="82J-4z-nj4" secondAttribute="bottom" constant="-301" id="HTb-lW-g5u"/>
+                                    <constraint firstItem="82J-4z-nj4" firstAttribute="centerX" secondItem="vTY-f0-cPa" secondAttribute="centerX" id="jHI-rR-Pbf"/>
+                                    <constraint firstItem="82J-4z-nj4" firstAttribute="leading" secondItem="vTY-f0-cPa" secondAttribute="leading" id="qaB-Yr-x4K"/>
+                                    <constraint firstItem="82J-4z-nj4" firstAttribute="top" secondItem="vTY-f0-cPa" secondAttribute="top" constant="-303" id="tHY-SQ-F5u"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="qmc-fZ-h4e"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="vTY-f0-cPa" secondAttribute="bottom" id="C7x-EW-l5U"/>
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="top" secondItem="l5i-Ym-9Md" secondAttribute="top" id="NaG-a4-WZw"/>
@@ -190,6 +174,7 @@
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="top" secondItem="l5i-Ym-9Md" secondAttribute="top" id="knq-ax-gbJ"/>
                             <constraint firstItem="vTY-f0-cPa" firstAttribute="trailing" secondItem="qmc-fZ-h4e" secondAttribute="trailing" id="yqV-m8-uAB"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="qmc-fZ-h4e"/>
                     </view>
                     <navigationItem key="navigationItem" id="tuH-Hp-2N2"/>
                     <size key="freeformSize" width="414" height="896"/>
@@ -198,58 +183,73 @@
             </objects>
             <point key="canvasLocation" x="1589.8550724637682" y="137.94642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Fashion Info View Controller-->
         <scene sceneID="SeB-4C-c1g">
             <objects>
-                <viewController id="3al-q9-fxa" sceneMemberID="viewController">
+                <viewController id="3al-q9-fxa" customClass="FashionInfoViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zz5-U0-QF7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QBc-Ew-TV7">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QBc-Ew-TV7">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UDl-ya-wup">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fashion Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXh-Rb-THK">
-                                        <rect key="frame" x="137" y="402" width="141" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8sZ-AK-GSn">
+                                        <rect key="frame" x="24" y="510" width="366" height="316"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="backgroundColor" red="0.94614154100000003" green="0.70588250452826451" blue="0.81795201967005116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Fashion is the third leading contributor to pollution, releasing around 10% of greenhouse gas emissions (1.2 billion tons of carbon dioxide) annually. Youth ages 14-18 are becoming a larger target for consumer brands and are increasingly contributing to fast fashion consumption. 
+</string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i4J-2f-bXc">
+                                        <rect key="frame" x="24" y="848" width="366" height="170"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.84761000450000001" green="0.9138959163" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">The most prominent fashion consumer group is 18-24 which makes it integral to build sustainable habits when shopping as a teen.
+
+</string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8sZ-AK-GSn">
-                                        <rect key="frame" x="69" y="408" width="277" height="441"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fashion Info" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXh-Rb-THK">
+                                        <rect key="frame" x="78" y="432" width="258" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Fashion is the 3rd leading contributor to pollution, releasing around 10% of greenhouse gas emissions (1.2 billion tons of carbon dioxide) annually. Youth ages 14-18 are becoming a larger target for consumer brands and are increasingly contributing to fast fashion consumption. Additionally, the most prominent fashion consumer group is 18-24 which makes it integral to build sustainable habits when shopping as a teen. 
-
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="41"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="Nj8-qI-JcG"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="aoV-UZ-95H"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="QBc-Ew-TV7" firstAttribute="leading" secondItem="aoV-UZ-95H" secondAttribute="leading" id="FYH-yG-Zdv"/>
-                            <constraint firstItem="QBc-Ew-TV7" firstAttribute="top" secondItem="zz5-U0-QF7" secondAttribute="top" id="Mmf-r1-fzL"/>
                             <constraint firstItem="UDl-ya-wup" firstAttribute="width" secondItem="zz5-U0-QF7" secondAttribute="width" id="Qfz-WH-OiK"/>
-                            <constraint firstItem="QBc-Ew-TV7" firstAttribute="trailing" secondItem="aoV-UZ-95H" secondAttribute="trailing" id="eLS-Jk-dwP"/>
-                            <constraint firstAttribute="bottom" secondItem="QBc-Ew-TV7" secondAttribute="bottom" id="jGA-G8-7ii"/>
-                            <constraint firstItem="QBc-Ew-TV7" firstAttribute="top" secondItem="zz5-U0-QF7" secondAttribute="top" id="lRf-oD-qNa"/>
                             <constraint firstItem="UDl-ya-wup" firstAttribute="height" secondItem="zz5-U0-QF7" secondAttribute="height" multiplier="1.67411" id="qfG-qd-SSw"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="aoV-UZ-95H"/>
                     </view>
                     <navigationItem key="navigationItem" id="od0-XW-VnC"/>
                     <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="FashionInfo" destination="8sZ-AK-GSn" id="4uB-be-FVq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3E-Or-g8x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -259,49 +259,37 @@
         <scene sceneID="M0t-v9-VfR">
             <objects>
                 <viewController id="oum-wL-TYq" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Ixy-4W-Jcq">
+                    <view key="view" contentMode="scaleToFill" id="Ixy-4W-Jcq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tfh-gJ-jUV">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfh-gJ-jUV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mzx-qc-KYo">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mzx-qc-KYo">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WX-bz-mMM">
-                                        <rect key="frame" x="142" y="402" width="131" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sl7-eh-inc">
+                                        <rect key="frame" x="29" y="462" width="357" height="189"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="backgroundColor" red="0.76018434788347633" green="0.96069794890000004" blue="0.85481644794455081" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Challenge #1: Trend shopping! Don't fall prey to trends. If you plan on buying "trendy" items, put them in a list and come back in three months. </string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sl7-eh-inc">
-                                        <rect key="frame" x="66" y="427" width="283" height="296"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmC-U1-YPb">
+                                        <rect key="frame" x="29" y="659" width="357" height="157"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Challenge #1: Trend shopping! Don't fall prey to trends. If you plan on buying "trendy" items, put them in a list and come back in three months. You wouldn't  want to buy a sweater to wear only once!</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmC-U1-YPb">
-                                        <rect key="frame" x="66" y="609" width="283" height="244"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Challenege #2: When shopping, try looking out for more environmentally friendly materials (natural fibers, or recycled material). These materials can be degradable or were reusing synthetic material.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6m-2M-041">
-                                        <rect key="frame" x="66" y="768" width="283" height="247"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Challenege #3: If possible, try avoiding fast fashion brands and shop for better quality! Don't shop from stores like Shein, H &amp; M, and Forever 21 for one month!</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="backgroundColor" red="1" green="0.89433252809999997" blue="0.95307561730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Challenge #2: When shopping, try looking out for more environmentally friendly materials (natural fibers, or recycled material). </string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhH-hb-kie">
-                                        <rect key="frame" x="125" y="1007" width="165" height="21"/>
+                                        <rect key="frame" x="129" y="1015" width="165" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -314,24 +302,35 @@
                                             <action selector="button:" destination="XJg-dV-3tj" eventType="valueChanged" id="8gy-SB-mm6"/>
                                         </connections>
                                     </switch>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6m-2M-041">
+                                        <rect key="frame" x="29" y="824" width="357" height="165"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.7601843479" green="0.96069794890000004" blue="0.8548164479" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Challenge #3: If possible, try avoiding fast fashion brands and shop for better quality! Don't shop from stores like Shein, H &amp; M, and Forever 21 for one month!</string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenges" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdr-tO-eLp">
+                                        <rect key="frame" x="95" y="379" width="291" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="41"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="4b7-S8-V6b"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="ngn-nB-aAZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Mzx-qc-KYo" firstAttribute="width" secondItem="Ixy-4W-Jcq" secondAttribute="width" id="5nN-dP-ZLV"/>
                             <constraint firstItem="tfh-gJ-jUV" firstAttribute="leading" secondItem="ngn-nB-aAZ" secondAttribute="leading" id="6uC-iD-wi2"/>
                             <constraint firstAttribute="bottom" secondItem="tfh-gJ-jUV" secondAttribute="bottom" id="CgY-do-uFg"/>
-                            <constraint firstItem="Mzx-qc-KYo" firstAttribute="height" secondItem="Ixy-4W-Jcq" secondAttribute="height" multiplier="1.67411" id="D4O-R9-7vM"/>
                             <constraint firstItem="tfh-gJ-jUV" firstAttribute="trailing" secondItem="ngn-nB-aAZ" secondAttribute="trailing" id="R6M-ue-reQ"/>
                             <constraint firstItem="tfh-gJ-jUV" firstAttribute="top" secondItem="Ixy-4W-Jcq" secondAttribute="top" id="U07-3c-fwW"/>
                             <constraint firstItem="tfh-gJ-jUV" firstAttribute="top" secondItem="Ixy-4W-Jcq" secondAttribute="top" id="paS-7a-AKg"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="ngn-nB-aAZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="f2L-8p-hpS"/>
                     <size key="freeformSize" width="414" height="896"/>
@@ -345,68 +344,64 @@
         <scene sceneID="4Gm-dM-Vhn">
             <objects>
                 <viewController id="1Rj-h4-Wnr" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="eee-d7-lYy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="eee-d7-lYy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8CZ-PE-vt4">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8CZ-PE-vt4">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to food!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjh-Fk-KhM">
-                                        <rect key="frame" x="120" y="401" width="204" height="33"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOa-Oz-0Rj">
+                                        <rect key="frame" x="69" y="625" width="273" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="backgroundColor" red="0.2199782431" green="0.6401925087" blue="0.64614725110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                        <state key="normal" title="Info">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="mXh-Ve-Cix" kind="show" id="OVD-U3-hjz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2x-oN-oDY">
+                                        <rect key="frame" x="69" y="777" width="273" height="127"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.2199782431" green="0.6401925087" blue="0.64614725110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                        <state key="normal" title="Challenges">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="0Ex-Uh-euj" kind="show" id="QTo-sG-DyT"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Food!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2th-su-anj">
+                                        <rect key="frame" x="48" y="507" width="390" height="110"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaM-7r-gF1">
-                                        <rect key="frame" x="119" y="518" width="205" height="106"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Info"/>
-                                        <connections>
-                                            <segue destination="mXh-Ve-Cix" kind="show" id="niM-ov-CE2"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ty4-bh-gud">
-                                        <rect key="frame" x="117" y="689" width="209" height="122"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Challenges"/>
-                                        <connections>
-                                            <segue destination="0Ex-Uh-euj" kind="show" id="wJL-SF-9dx"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="3qV-ge-att"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Vh-oz-ysC">
-                                <rect key="frame" x="10" y="-292" width="205" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Info"/>
-                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="JhY-CE-LfL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="8CZ-PE-vt4" firstAttribute="height" secondItem="eee-d7-lYy" secondAttribute="height" multiplier="1.67411" id="226-Oh-Uj9"/>
                             <constraint firstItem="eGf-Cf-m9o" firstAttribute="leading" secondItem="JhY-CE-LfL" secondAttribute="leading" id="9oz-d6-HuK"/>
-                            <constraint firstItem="8CZ-PE-vt4" firstAttribute="width" secondItem="eee-d7-lYy" secondAttribute="width" id="AcU-hq-Rkg"/>
+                            <constraint firstItem="8CZ-PE-vt4" firstAttribute="leading" secondItem="eGf-Cf-m9o" secondAttribute="leading" id="Bie-Yc-C0V"/>
                             <constraint firstItem="eGf-Cf-m9o" firstAttribute="top" secondItem="eee-d7-lYy" secondAttribute="top" id="Xit-zI-20a"/>
+                            <constraint firstItem="8CZ-PE-vt4" firstAttribute="trailing" secondItem="eGf-Cf-m9o" secondAttribute="trailing" id="aOM-1E-UNm"/>
                             <constraint firstAttribute="bottom" secondItem="eGf-Cf-m9o" secondAttribute="bottom" id="fmy-lA-fWh"/>
                             <constraint firstItem="eGf-Cf-m9o" firstAttribute="top" secondItem="eee-d7-lYy" secondAttribute="top" id="gc6-Kb-4lb"/>
                             <constraint firstItem="eGf-Cf-m9o" firstAttribute="trailing" secondItem="JhY-CE-LfL" secondAttribute="trailing" id="lUW-k5-ZpU"/>
+                            <constraint firstItem="8CZ-PE-vt4" firstAttribute="top" secondItem="eee-d7-lYy" secondAttribute="top" constant="-302" id="n8r-VL-fQt"/>
+                            <constraint firstItem="8CZ-PE-vt4" firstAttribute="centerY" secondItem="eGf-Cf-m9o" secondAttribute="centerY" id="zHK-ct-Feb"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="JhY-CE-LfL"/>
                     </view>
                     <navigationItem key="navigationItem" id="8xV-e1-jfQ"/>
                     <size key="freeformSize" width="414" height="896"/>
@@ -419,51 +414,57 @@
         <scene sceneID="6hq-Je-u1l">
             <objects>
                 <viewController id="mXh-Ve-Cix" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="a08-Rf-ZwA">
+                    <view key="view" contentMode="scaleToFill" id="a08-Rf-ZwA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hE4-KW-SRV">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hE4-KW-SRV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dDr-cm-XTe">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dDr-cm-XTe">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5C-kd-C3o">
-                                        <rect key="frame" x="153" y="403" width="108" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcD-3T-jTt">
+                                        <rect key="frame" x="16" y="915" width="382" height="147"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Nowadays, our food comes wrapped in tons of plastic, and shipped across countries, emitting fuel. 
+
+</string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trR-uS-Fka">
-                                        <rect key="frame" x="57" y="412" width="300" height="455"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trR-uS-Fka">
+                                        <rect key="frame" x="16" y="535" width="382" height="355"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Of the five most polluting industries in the world, food industries make the list twice, with agriculture at number three, and food retail at number five. Our food consumption has a huge impact on the environment, and it's our job to think about the choices we’re making regarding food. For example, meat consumption is responsible for releasing greenhouse gasses, taking land, and using tons of water. Nowadays, our food comes wrapped in tons of plastic, and shipped across countries, emitting fuel. 
-
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="backgroundColor" red="1" green="0.85395495970000002" blue="0.72821632209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Of the five most polluting industries in the world, food industries make the list twice, with agriculture at number three, and food retail at number five. Our food consumption has a huge impact on the environment, and it's our job to think about the choices we’re making regarding food. </string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food Info" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPC-dC-Lhf">
+                                        <rect key="frame" x="107" y="457" width="291" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="41"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="uA9-VN-3bx"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="bhn-Qh-nun"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="dDr-cm-XTe" firstAttribute="height" secondItem="a08-Rf-ZwA" secondAttribute="height" multiplier="1.67411" id="1OQ-vx-gNz"/>
                             <constraint firstItem="hE4-KW-SRV" firstAttribute="leading" secondItem="bhn-Qh-nun" secondAttribute="leading" id="4nx-Cq-A17"/>
                             <constraint firstItem="hE4-KW-SRV" firstAttribute="top" secondItem="a08-Rf-ZwA" secondAttribute="top" id="9ii-hM-FIC"/>
                             <constraint firstAttribute="bottom" secondItem="hE4-KW-SRV" secondAttribute="bottom" id="AON-vh-Lcx"/>
                             <constraint firstItem="hE4-KW-SRV" firstAttribute="top" secondItem="a08-Rf-ZwA" secondAttribute="top" id="Wa4-Jc-ZmJ"/>
                             <constraint firstItem="hE4-KW-SRV" firstAttribute="trailing" secondItem="bhn-Qh-nun" secondAttribute="trailing" id="hiG-8q-LFz"/>
-                            <constraint firstItem="dDr-cm-XTe" firstAttribute="width" secondItem="a08-Rf-ZwA" secondAttribute="width" id="qZh-Zj-MVp"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="bhn-Qh-nun"/>
                     </view>
                     <navigationItem key="navigationItem" id="raJ-d4-s64"/>
                     <size key="freeformSize" width="414" height="896"/>
@@ -476,50 +477,38 @@
         <scene sceneID="tDh-sj-eSp">
             <objects>
                 <viewController id="0Ex-Uh-euj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="2VV-JT-sFV">
+                    <view key="view" contentMode="scaleToFill" id="2VV-JT-sFV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K6p-dM-JVQ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K6p-dM-JVQ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B3w-cD-OqF">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B3w-cD-OqF">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food challenges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9C-Un-Vup">
-                                        <rect key="frame" x="120" y="364" width="191" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIG-en-J1M">
+                                        <rect key="frame" x="29" y="643" width="363" height="185"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKL-9f-sDp">
-                                        <rect key="frame" x="56" y="433" width="303" height="246"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Meatless Monday: Don’t eat meat every Monday for a month. (That’s only four Mondays!) Try incorporating more plant based meals into your diet. If going meatless for the entire day is too hard, try packing meatless lunches every Monday. 
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIG-en-J1M">
-                                        <rect key="frame" x="56" y="583" width="303" height="246"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.98491007090000005" green="0.81319620634986522" blue="0.70398682829007819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Reduce purchases with plastic: For the next ten food related items you buy, think about the waste it creates. For example, buy pasta packaged in a cardboard box instead of a plastic bag. Try to make this a habit </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4O-07-8cc">
-                                        <rect key="frame" x="56" y="727" width="303" height="246"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4O-07-8cc">
+                                        <rect key="frame" x="29" y="845" width="356" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Grow a vegetable: This challenge could take a while. Plant a vegetable from seed. Depending on the vegetable, this could take 1-6 months! Consider what vegetables are local to your area and try planting those. </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eSg-eR-5Og">
-                                        <rect key="frame" x="182" y="1028" width="49" height="31"/>
+                                        <rect key="frame" x="184" y="1067" width="49" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="button:" destination="XJg-dV-3tj" eventType="valueChanged" id="2uq-Lj-Xoj"/>
@@ -527,30 +516,35 @@
                                         </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2T-OT-jHN">
-                                        <rect key="frame" x="124" y="999" width="165" height="21"/>
+                                        <rect key="frame" x="123" y="1014" width="165" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKL-9f-sDp">
+                                        <rect key="frame" x="29" y="449" width="363" height="175"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Meatless Monday: Don’t eat meat every Monday for a month. (That’s only four Mondays!) Try incorporating more plant based meals into your diet. If going meatless for the entire day is too hard, try packing meatless lunches every Monday. 
+</string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenges" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zm0-1F-Jax">
+                                        <rect key="frame" x="94" y="365" width="260" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="41"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="vyy-o9-wHd"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="7DZ-GI-3GX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="K6p-dM-JVQ" secondAttribute="bottom" id="Avh-nz-5cz"/>
-                            <constraint firstItem="K6p-dM-JVQ" firstAttribute="top" secondItem="2VV-JT-sFV" secondAttribute="top" id="GAG-wj-dpn"/>
-                            <constraint firstItem="K6p-dM-JVQ" firstAttribute="top" secondItem="2VV-JT-sFV" secondAttribute="top" id="Gx6-PM-Bdu"/>
-                            <constraint firstItem="K6p-dM-JVQ" firstAttribute="trailing" secondItem="7DZ-GI-3GX" secondAttribute="trailing" id="WBD-5W-ZJq"/>
-                            <constraint firstItem="B3w-cD-OqF" firstAttribute="width" secondItem="2VV-JT-sFV" secondAttribute="width" id="YBL-Dw-hlT"/>
-                            <constraint firstItem="K6p-dM-JVQ" firstAttribute="leading" secondItem="7DZ-GI-3GX" secondAttribute="leading" id="hGs-CX-jQN"/>
-                            <constraint firstItem="B3w-cD-OqF" firstAttribute="height" secondItem="2VV-JT-sFV" secondAttribute="height" multiplier="1.67411" id="rUL-DY-gU8"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QcN-Sf-iUE"/>
                     <size key="freeformSize" width="414" height="896"/>
@@ -564,50 +558,67 @@
         <scene sceneID="w1i-Wy-urr">
             <objects>
                 <viewController id="2hk-er-oyK" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5BH-CF-pi6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="5BH-CF-pi6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-3w-Qu5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u26-Cl-bHh">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to trash!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o34-Dq-Vt4">
-                                        <rect key="frame" x="120" y="401" width="210" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJK-tO-dD0">
-                                        <rect key="frame" x="119" y="518" width="205" height="106"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Info"/>
-                                        <connections>
-                                            <segue destination="Cqr-8d-or6" kind="show" id="1oF-Zk-5pz"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYj-dk-PKx">
-                                        <rect key="frame" x="117" y="689" width="209" height="122"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Challenges"/>
-                                        <connections>
-                                            <segue destination="bGs-NE-iKh" kind="show" id="zmt-Sr-CfI"/>
-                                        </connections>
-                                    </button>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u26-Cl-bHh">
+                                        <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQj-FC-MyA">
+                                                <rect key="frame" x="94" y="339" width="475" height="312"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zh-7V-cc3">
+                                                <rect key="frame" x="71" y="795" width="273" height="127"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2199782431" green="0.6401925087" blue="0.64614725110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                                <state key="normal" title="Challenges">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="Yy2-cf-cKy" kind="show" id="YlT-lv-tON"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YiQ-bn-TKZ">
+                                                <rect key="frame" x="71" y="628" width="273" height="117"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.2199782431" green="0.6401925087" blue="0.64614725110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                                <state key="normal" title="Info">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="p2R-OT-Ugw" kind="show" id="Iyf-tb-UxX"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="transportation!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3O-c5-ZtE">
+                                                <rect key="frame" x="71" y="400" width="475" height="285"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="Iw3-Ob-jpZ"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="Iw3-Ob-jpZ"/>
+                                    <constraint firstItem="u26-Cl-bHh" firstAttribute="height" secondItem="dv1-3w-Qu5" secondAttribute="height" multiplier="1.67411" id="HkB-K1-jc7"/>
+                                    <constraint firstItem="u26-Cl-bHh" firstAttribute="width" secondItem="dv1-3w-Qu5" secondAttribute="width" id="O8Q-OB-qXX"/>
                                 </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYx-Jt-Qck">
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYx-Jt-Qck">
                                 <rect key="frame" x="10" y="-292" width="205" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -615,93 +626,31 @@
                                 <state key="normal" title="Info"/>
                             </button>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="K7j-FU-9fq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="dv1-3w-Qu5" firstAttribute="leading" secondItem="K7j-FU-9fq" secondAttribute="leading" id="B9N-SN-dCa"/>
-                            <constraint firstItem="dv1-3w-Qu5" firstAttribute="trailing" secondItem="K7j-FU-9fq" secondAttribute="trailing" id="JTv-up-0fw"/>
-                            <constraint firstAttribute="bottom" secondItem="dv1-3w-Qu5" secondAttribute="bottom" id="Tes-pO-xSE"/>
-                            <constraint firstItem="u26-Cl-bHh" firstAttribute="height" secondItem="5BH-CF-pi6" secondAttribute="height" multiplier="1.67411" id="Y0C-37-jqx"/>
-                            <constraint firstItem="dv1-3w-Qu5" firstAttribute="top" secondItem="5BH-CF-pi6" secondAttribute="top" id="iGc-Me-JvQ"/>
-                            <constraint firstItem="u26-Cl-bHh" firstAttribute="width" secondItem="5BH-CF-pi6" secondAttribute="width" id="qo2-Pw-gEE"/>
-                            <constraint firstItem="dv1-3w-Qu5" firstAttribute="top" secondItem="5BH-CF-pi6" secondAttribute="top" id="r4V-cT-MrV"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Y62-45-tru"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XiH-5i-Pe5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="891" y="893"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="oiN-e4-i8Q">
-            <objects>
-                <viewController id="Cqr-8d-or6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="oNP-hK-t1R">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XiC-Gs-mwf">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WYc-lN-kKP">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trash info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lje-Da-mBf">
-                                        <rect key="frame" x="120" y="364" width="113" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="BzU-L4-gQc"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="YHc-ML-DuB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="WYc-lN-kKP" firstAttribute="height" secondItem="oNP-hK-t1R" secondAttribute="height" multiplier="1.67411" id="Km4-2u-OvZ"/>
-                            <constraint firstItem="XiC-Gs-mwf" firstAttribute="top" secondItem="oNP-hK-t1R" secondAttribute="top" id="NQ9-Bq-ybM"/>
-                            <constraint firstItem="XiC-Gs-mwf" firstAttribute="trailing" secondItem="YHc-ML-DuB" secondAttribute="trailing" id="WZT-m7-Wzu"/>
-                            <constraint firstItem="XiC-Gs-mwf" firstAttribute="leading" secondItem="YHc-ML-DuB" secondAttribute="leading" id="gWa-rR-7Sf"/>
-                            <constraint firstItem="WYc-lN-kKP" firstAttribute="width" secondItem="oNP-hK-t1R" secondAttribute="width" id="p6N-TW-uwe"/>
-                            <constraint firstAttribute="bottom" secondItem="XiC-Gs-mwf" secondAttribute="bottom" id="pZi-Qh-Y6p"/>
-                            <constraint firstItem="XiC-Gs-mwf" firstAttribute="top" secondItem="oNP-hK-t1R" secondAttribute="top" id="plO-kU-WOi"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="shz-Z2-kUA"/>
-                    <size key="freeformSize" width="414" height="896"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iWQ-VZ-eBO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1619" y="893"/>
+            <point key="canvasLocation" x="889.85507246376824" y="892.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vqd-Ti-I7e">
             <objects>
                 <viewController id="p2R-OT-Ugw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="gBT-3H-f09">
+                    <view key="view" contentMode="scaleToFill" id="gBT-3H-f09">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="auk-dZ-ZbT">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="auk-dZ-ZbT">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fby-4k-r4n">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fby-4k-r4n">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transportation info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EB5-rD-jyK">
-                                        <rect key="frame" x="110" y="383" width="217" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZJ-Hw-81D">
                                         <rect key="frame" x="6" y="442" width="0.0" height="0.0"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -709,19 +658,24 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDY-92-x0f">
-                                        <rect key="frame" x="49" y="421" width="339" height="485"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDY-92-x0f">
+                                        <rect key="frame" x="15" y="518" width="385" height="409"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Transportation is one of the leading factors that contribute to global warming.  In fact, the U.S transportation sector accounts for approximately one third of emissions that have damaged our climate.  When fossil fuels are burnt to produce motor oil, which fuels cars, a great amount of carbon emissions are released as will as toxic chemical pollutants.  To solve the problem, we can lower the amount of fuel being burnt annually by carpooling, walking, using public transportation, etc.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="backgroundColor" red="0.78304302690000005" green="0.97597807650000001" blue="0.80244654419999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Transportation is one of the leading factors that contribute to global warming.  In fact, the U.S transportation sector accounts for approximately one third of emissions that have damaged our climate.  When fossil fuels are burnt to produce motor oil, which fuels cars, a great amount of carbon emissions are released as will as toxic chemical pollutants.</string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transportation Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lm0-ia-rQM">
+                                        <rect key="frame" x="27" y="405" width="379" height="110"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="HDz-6A-tN0"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diz-FC-1oF">
                                 <rect key="frame" x="10" y="-292" width="42" height="21"/>
@@ -731,344 +685,212 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="yB4-3Y-yxA"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="auk-dZ-ZbT" firstAttribute="leading" secondItem="yB4-3Y-yxA" secondAttribute="leading" id="5tO-4b-K9o"/>
                             <constraint firstAttribute="bottom" secondItem="auk-dZ-ZbT" secondAttribute="bottom" id="6pa-R7-XQI"/>
                             <constraint firstItem="auk-dZ-ZbT" firstAttribute="top" secondItem="gBT-3H-f09" secondAttribute="top" id="RN4-Uk-G20"/>
                             <constraint firstItem="auk-dZ-ZbT" firstAttribute="trailing" secondItem="yB4-3Y-yxA" secondAttribute="trailing" id="nzm-fH-TbU"/>
-                            <constraint firstItem="fby-4k-r4n" firstAttribute="width" secondItem="gBT-3H-f09" secondAttribute="width" id="sPn-98-70A"/>
-                            <constraint firstItem="fby-4k-r4n" firstAttribute="height" secondItem="gBT-3H-f09" secondAttribute="height" multiplier="1.67411" id="vGk-xe-9eX"/>
                             <constraint firstItem="auk-dZ-ZbT" firstAttribute="top" secondItem="gBT-3H-f09" secondAttribute="top" id="zn9-ZD-4Ba"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="yB4-3Y-yxA"/>
                     </view>
                     <navigationItem key="navigationItem" id="ED8-Os-hUF"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lT6-D8-lMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3695.652173913044" y="902.67857142857133"/>
-        </scene>
-        <!--Transportation Info View Controller-->
-        <scene sceneID="2tz-o9-Npj">
-            <objects>
-                <viewController id="Rli-cG-q5i" customClass="TransportationInfoViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="m8D-gV-zhY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4t-qF-mWc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c9P-z4-QPM">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQi-wb-Mqb">
-                                        <rect key="frame" x="119" y="518" width="205" height="106"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Info"/>
-                                        <connections>
-                                            <segue destination="p2R-OT-Ugw" kind="show" id="8dT-dD-pZ3"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEh-NG-bGA">
-                                        <rect key="frame" x="117" y="689" width="209" height="122"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Challenges"/>
-                                        <connections>
-                                            <segue destination="Yy2-cf-cKy" kind="show" id="5fm-wg-3mr"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SX-lb-drY">
-                                        <rect key="frame" x="54" y="395" width="307" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="hm2-X6-QuO"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rte-Ex-kPh">
-                                <rect key="frame" x="10" y="-292" width="205" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Info"/>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="QMH-Zw-E1c"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="N4t-qF-mWc" firstAttribute="top" secondItem="m8D-gV-zhY" secondAttribute="top" id="C0F-0u-Nsx"/>
-                            <constraint firstAttribute="bottom" secondItem="N4t-qF-mWc" secondAttribute="bottom" id="ITZ-RF-13c"/>
-                            <constraint firstItem="N4t-qF-mWc" firstAttribute="top" secondItem="m8D-gV-zhY" secondAttribute="top" id="Niy-96-MNT"/>
-                            <constraint firstItem="c9P-z4-QPM" firstAttribute="height" secondItem="m8D-gV-zhY" secondAttribute="height" multiplier="1.67411" id="Piz-Qs-hmP"/>
-                            <constraint firstItem="c9P-z4-QPM" firstAttribute="width" secondItem="m8D-gV-zhY" secondAttribute="width" id="svb-sV-mz8"/>
-                            <constraint firstItem="N4t-qF-mWc" firstAttribute="leading" secondItem="QMH-Zw-E1c" secondAttribute="leading" id="vU1-Vq-voJ"/>
-                            <constraint firstItem="N4t-qF-mWc" firstAttribute="trailing" secondItem="QMH-Zw-E1c" secondAttribute="trailing" id="xvM-w1-62R"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="vdl-Ll-eXs"/>
-                    <size key="freeformSize" width="414" height="896"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JVh-g4-Pph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2981" y="903"/>
+            <point key="canvasLocation" x="1589.8550724637682" y="892.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GTJ-fp-Mgp">
             <objects>
                 <viewController id="Yy2-cf-cKy" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="IHk-ui-jgm">
+                    <view key="view" contentMode="scaleToFill" id="IHk-ui-jgm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Zo-hg-ifE">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Zo-hg-ifE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h0F-Mb-W59">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h0F-Mb-W59">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transformation challenges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGQ-Xd-c0N">
-                                        <rect key="frame" x="69" y="379" width="306" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge  #2: Cycle or walk to school for a month" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjP-w3-9Ib">
-                                        <rect key="frame" x="38" y="588" width="339" height="147"/>
+                                        <rect key="frame" x="38" y="662" width="337" height="126"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="backgroundColor" red="0.7601843479" green="0.96069794890000004" blue="0.8548164479" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge  #3: Spread knowledge about sustainable transportation to five other people!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcA-xx-aXV">
-                                        <rect key="frame" x="38" y="677" width="339" height="147"/>
+                                        <rect key="frame" x="38" y="796" width="337" height="183"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="backgroundColor" red="0.79135524479999997" green="0.97597807650000001" blue="0.96634185149999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge  #1: Carpool with two or more people for a week           " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAl-e3-ofb">
-                                        <rect key="frame" x="36" y="504" width="339" height="147"/>
+                                        <rect key="frame" x="38" y="516" width="337" height="138"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VR-5v-WCI">
-                                        <rect key="frame" x="111" y="965" width="165" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="backgroundColor" red="0.79135524482247122" green="0.97597807650000001" blue="0.96634185145670104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9s2-X9-LPZ">
-                                        <rect key="frame" x="170" y="1001" width="49" height="31"/>
+                                        <rect key="frame" x="170" y="1027" width="49" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </switch>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VR-5v-WCI">
+                                        <rect key="frame" x="111" y="998" width="165" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenges" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYi-eS-1wt">
+                                        <rect key="frame" x="84" y="426" width="291" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="41"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="vQP-H9-pFA"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="WWC-C6-XM8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="h0F-Mb-W59" firstAttribute="height" secondItem="IHk-ui-jgm" secondAttribute="height" multiplier="1.67411" id="4KF-7l-50u"/>
                             <constraint firstItem="1Zo-hg-ifE" firstAttribute="leading" secondItem="WWC-C6-XM8" secondAttribute="leading" id="FGf-UM-6JU"/>
                             <constraint firstAttribute="bottom" secondItem="1Zo-hg-ifE" secondAttribute="bottom" id="G05-HX-2iO"/>
                             <constraint firstItem="1Zo-hg-ifE" firstAttribute="top" secondItem="IHk-ui-jgm" secondAttribute="top" id="GhB-Rz-3nx"/>
-                            <constraint firstItem="h0F-Mb-W59" firstAttribute="width" secondItem="IHk-ui-jgm" secondAttribute="width" id="Hex-WZ-i5m"/>
                             <constraint firstItem="1Zo-hg-ifE" firstAttribute="trailing" secondItem="WWC-C6-XM8" secondAttribute="trailing" id="Z50-ij-KP6"/>
                             <constraint firstItem="1Zo-hg-ifE" firstAttribute="top" secondItem="IHk-ui-jgm" secondAttribute="top" id="xaR-MR-4V7"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="WWC-C6-XM8"/>
                     </view>
                     <navigationItem key="navigationItem" id="5iT-4G-Or3"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2g-Yw-NmF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4376.811594202899" y="902.67857142857133"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="mbw-3J-TK2">
-            <objects>
-                <viewController id="bGs-NE-iKh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="s65-UX-FbK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uH7-9A-lJa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpe-u8-tON">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trash challenges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Je-oG-2go">
-                                        <rect key="frame" x="120" y="364" width="195" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAT-W8-PhX">
-                                        <rect key="frame" x="125" y="962" width="165" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BRK-Yj-OEe">
-                                        <rect key="frame" x="184" y="1003" width="49" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="button:" destination="XJg-dV-3tj" eventType="valueChanged" id="O7G-LL-ZAo"/>
-                                        </connections>
-                                    </switch>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="hfK-qN-Xu6"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="XZR-1r-3vV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="uH7-9A-lJa" secondAttribute="bottom" id="8mr-qL-Bug"/>
-                            <constraint firstItem="uH7-9A-lJa" firstAttribute="top" secondItem="s65-UX-FbK" secondAttribute="top" id="Cg8-g5-N0i"/>
-                            <constraint firstItem="uH7-9A-lJa" firstAttribute="leading" secondItem="XZR-1r-3vV" secondAttribute="leading" id="LhC-Ar-15N"/>
-                            <constraint firstItem="uH7-9A-lJa" firstAttribute="trailing" secondItem="XZR-1r-3vV" secondAttribute="trailing" id="Ubs-Yh-KgQ"/>
-                            <constraint firstItem="uH7-9A-lJa" firstAttribute="top" secondItem="s65-UX-FbK" secondAttribute="top" id="V5r-Xa-Ex4"/>
-                            <constraint firstItem="Wpe-u8-tON" firstAttribute="width" secondItem="s65-UX-FbK" secondAttribute="width" id="Znk-Fr-yn7"/>
-                            <constraint firstItem="Wpe-u8-tON" firstAttribute="height" secondItem="s65-UX-FbK" secondAttribute="height" multiplier="1.67411" id="eTm-f5-aRh"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="QRu-gf-Zx4"/>
-                    <size key="freeformSize" width="414" height="896"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T50-81-uRw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2310" y="903"/>
+            <point key="canvasLocation" x="2298.5507246376815" y="892.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="z0w-qV-zJn">
             <objects>
                 <viewController id="E17-Xs-Cy2" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="lvl-tY-LIm">
+                    <view key="view" contentMode="scaleToFill" id="lvl-tY-LIm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xc9-SX-GOP">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xc9-SX-GOP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1sz-PT-cWw">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1sz-PT-cWw">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upcycling info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cie-LJ-19r">
-                                        <rect key="frame" x="110" y="383" width="166" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8J-XK-eGH">
+                                        <rect key="frame" x="33" y="745" width="349" height="270"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="backgroundColor" red="1" green="0.99479232537182249" blue="0.84014592558064494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Plastics can only be downcycled once or twice before they become unusable, so they end up in a landfill. And manufacturing isn’t the only thing that contributes to carbon emissions, because recycling does too. Using old items to create something new is better than taking the limited natural resources we have. 
+</string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZ7-eN-1GO">
-                                        <rect key="frame" x="46" y="456" width="322" height="502"/>
+                                        <rect key="frame" x="33" y="496" width="349" height="225"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Upcycling is taking something old and creating something new with a higher value. Instead of throwing away your old things, take a look at them. To you, they seemed like trash. But can you take these items and reuse them? This is the essence of upcycling. 
-Plastics can only be downcycled once or twice before they become unusable, so they end up in a landfill. And manufacturing isn’t the only thing that contributes to carbon emissions, because recycling does too. Using old items to create something new is better than taking the limited natural resources we have. 
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="backgroundColor" red="0.97597807650000001" green="0.85360090580716064" blue="0.94039663127913387" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Upcycling is taking something old and creating something new with a higher value. Instead of throwing away your old things, take a look at them. To you, they seemed like trash. But can you take these items and reuse them? This is the essence of upcycling. </string>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="        Upcycling Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgM-zX-Q3N">
+                                        <rect key="frame" x="25" y="231" width="365" height="414"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="34"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="z1q-kU-jGI"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="LGd-Tp-OPE"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Xc9-SX-GOP" firstAttribute="trailing" secondItem="LGd-Tp-OPE" secondAttribute="trailing" id="3Ta-QL-8S4"/>
-                            <constraint firstItem="1sz-PT-cWw" firstAttribute="height" secondItem="lvl-tY-LIm" secondAttribute="height" multiplier="1.67411" id="7Qx-bY-67Y"/>
-                            <constraint firstItem="1sz-PT-cWw" firstAttribute="width" secondItem="lvl-tY-LIm" secondAttribute="width" id="JLg-sa-pgo"/>
                             <constraint firstItem="Xc9-SX-GOP" firstAttribute="top" secondItem="lvl-tY-LIm" secondAttribute="top" id="T0O-fj-stR"/>
                             <constraint firstItem="Xc9-SX-GOP" firstAttribute="top" secondItem="lvl-tY-LIm" secondAttribute="top" id="mI2-CI-Z7B"/>
                             <constraint firstAttribute="bottom" secondItem="Xc9-SX-GOP" secondAttribute="bottom" id="rMe-We-ya1"/>
                             <constraint firstItem="Xc9-SX-GOP" firstAttribute="leading" secondItem="LGd-Tp-OPE" secondAttribute="leading" id="wsb-Vd-CBZ"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="LGd-Tp-OPE"/>
                     </view>
                     <navigationItem key="navigationItem" id="3fh-kB-ZJA"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTH-uG-iSO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837.68115942028987" y="1567.6339285714284"/>
+            <point key="canvasLocation" x="3757.971014492754" y="892.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TUw-lX-30b">
             <objects>
                 <viewController id="5Qn-iv-F2E" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="baG-Jz-72q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="baG-Jz-72q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ny1-4t-Ku8">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ny1-4t-Ku8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dxz-mz-SBj">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dxz-mz-SBj">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ch9-Dl-cXZ">
-                                        <rect key="frame" x="119" y="518" width="205" height="106"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Info"/>
-                                        <connections>
-                                            <segue destination="E17-Xs-Cy2" kind="show" id="zaX-WY-yRU"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Src-77-ggz">
-                                        <rect key="frame" x="117" y="689" width="209" height="122"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Challenges"/>
-                                        <connections>
-                                            <segue destination="7DG-36-xVj" kind="show" id="hhV-Ic-Y57"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to upcycling!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heh-mu-eV6">
-                                        <rect key="frame" x="54" y="395" width="263" height="33"/>
+                                        <rect key="frame" x="25" y="313" width="365" height="414"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="34"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3V-0V-ptd">
+                                        <rect key="frame" x="71" y="613" width="273" height="114"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.2199782431" green="0.6401925087" blue="0.64614725110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                        <state key="normal" title="Info">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="E17-Xs-Cy2" kind="show" id="YQQ-bb-Eox"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9X6-lV-2jP">
+                                        <rect key="frame" x="71" y="775" width="273" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.2199782431" green="0.6401925087" blue="0.64614725110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                        <state key="normal" title="Challenges">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="7DG-36-xVj" kind="show" id="Xdf-0R-sfa"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="04v-4W-bMm"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4C-cf-aiz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4C-cf-aiz">
                                 <rect key="frame" x="10" y="-292" width="205" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1076,102 +898,92 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                                 <state key="normal" title="Info"/>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="QKj-Hi-ahI"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="ny1-4t-Ku8" secondAttribute="bottom" id="0zA-5b-MtJ"/>
                             <constraint firstItem="ny1-4t-Ku8" firstAttribute="top" secondItem="baG-Jz-72q" secondAttribute="top" id="4YK-ZJ-DWZ"/>
-                            <constraint firstItem="Dxz-mz-SBj" firstAttribute="height" secondItem="baG-Jz-72q" secondAttribute="height" multiplier="1.67411" id="4uD-pe-3rY"/>
+                            <constraint firstItem="Dxz-mz-SBj" firstAttribute="leading" secondItem="ny1-4t-Ku8" secondAttribute="leading" id="7uI-jl-85N"/>
+                            <constraint firstItem="Dxz-mz-SBj" firstAttribute="trailing" secondItem="ny1-4t-Ku8" secondAttribute="trailing" id="7zh-Xr-oKU"/>
                             <constraint firstItem="ny1-4t-Ku8" firstAttribute="top" secondItem="baG-Jz-72q" secondAttribute="top" id="L87-hI-kgo"/>
                             <constraint firstItem="ny1-4t-Ku8" firstAttribute="leading" secondItem="QKj-Hi-ahI" secondAttribute="leading" id="LRQ-hF-wAi"/>
-                            <constraint firstItem="Dxz-mz-SBj" firstAttribute="width" secondItem="baG-Jz-72q" secondAttribute="width" id="b44-xg-9kk"/>
+                            <constraint firstItem="Dxz-mz-SBj" firstAttribute="top" secondItem="baG-Jz-72q" secondAttribute="top" constant="-302" id="Ye8-XW-oi1"/>
                             <constraint firstItem="ny1-4t-Ku8" firstAttribute="trailing" secondItem="QKj-Hi-ahI" secondAttribute="trailing" id="kQE-MC-xXq"/>
+                            <constraint firstItem="Dxz-mz-SBj" firstAttribute="centerY" secondItem="ny1-4t-Ku8" secondAttribute="centerY" id="ov2-VW-Lu3"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="QKj-Hi-ahI"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qlf-WK-UqZ"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ux-DV-5lU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="1581"/>
+            <point key="canvasLocation" x="3037.68115942029" y="892.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wjF-cj-CAw">
             <objects>
                 <viewController id="7DG-36-xVj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="rPj-Ni-F8U">
+                    <view key="view" contentMode="scaleToFill" id="rPj-Ni-F8U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9f5-yc-dH2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </scrollView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VFg-h5-vGZ">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nxv-AE-PDy">
+                                <rect key="frame" x="0.0" y="-190" width="414" height="1500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5gW-Th-1Fz">
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bSy-wM-zKm">
                                         <rect key="frame" x="170" y="972" width="49" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <action selector="button:" destination="XJg-dV-3tj" eventType="valueChanged" id="Dq6-QP-Ox3"/>
+                                            <action selector="button:" destination="XJg-dV-3tj" eventType="valueChanged" id="4RC-CO-iqd"/>
                                         </connections>
                                     </switch>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzw-g5-RGO">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOZ-vX-tqW">
                                         <rect key="frame" x="125" y="861" width="165" height="174"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upcycling challenges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnK-IC-HFf">
-                                        <rect key="frame" x="69" y="379" width="249" height="33"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beQ-dX-2O5">
+                                        <rect key="frame" x="37" y="389" width="347" height="244"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBg-cl-FZJ">
-                                        <rect key="frame" x="55" y="379" width="277" height="323"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.89433252809999997" blue="0.95307561730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Try one of the challenges in “10 No-Sew Ways to Upcycle Old Clothes” from ehow.com. From turning old sweaters into mittens to transforming an old t-shirt into a tote bag, there are plenty of ways to upcycle clothes without a sewing machine. </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQT-sk-qu6">
-                                        <rect key="frame" x="55" y="599" width="311" height="303"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQh-Rj-dbj">
+                                        <rect key="frame" x="37" y="652" width="347" height="231"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.99479232539999995" blue="0.84014592560000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Do you have tons of plastic bottles laying around? Try one of the challenges in “10 Creative Ways to Upcycle Your Plastic Bottles” from treehugger.com. Turn them into bird feeders and windchimes, there are endless possibilities!
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenges" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P46-hJ-jjT">
+                                        <rect key="frame" x="93" y="295" width="298" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="41"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1500" id="Bu5-DR-GDf"/>
-                                </constraints>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="hXU-kM-1gL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="9f5-yc-dH2" firstAttribute="top" secondItem="rPj-Ni-F8U" secondAttribute="top" id="0Tb-FD-Lpt"/>
-                            <constraint firstItem="VFg-h5-vGZ" firstAttribute="height" secondItem="rPj-Ni-F8U" secondAttribute="height" multiplier="1.67411" id="1SE-sD-SPi"/>
-                            <constraint firstItem="9f5-yc-dH2" firstAttribute="leading" secondItem="hXU-kM-1gL" secondAttribute="leading" id="2Lk-lw-ZdY"/>
-                            <constraint firstItem="9f5-yc-dH2" firstAttribute="trailing" secondItem="hXU-kM-1gL" secondAttribute="trailing" id="f80-5O-ahz"/>
-                            <constraint firstAttribute="bottom" secondItem="9f5-yc-dH2" secondAttribute="bottom" id="hHH-hr-WsV"/>
-                            <constraint firstItem="VFg-h5-vGZ" firstAttribute="width" secondItem="rPj-Ni-F8U" secondAttribute="width" id="nKq-qM-D3L"/>
-                            <constraint firstItem="9f5-yc-dH2" firstAttribute="top" secondItem="rPj-Ni-F8U" secondAttribute="top" id="s1H-lA-zFI"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9UR-bz-MMG"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AUy-Kl-nMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1566.6666666666667" y="1567.6339285714284"/>
+            <point key="canvasLocation" x="4434.7826086956529" y="892.63392857142856"/>
         </scene>
         <!--Pathway View Controller-->
         <scene sceneID="17p-XW-L4H">
@@ -1187,9 +999,11 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W4R-Kp-leL">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-18 at 2.07.52 PM" translatesAutoresizingMaskIntoConstraints="NO" id="txG-RB-Gm2" customClass="PathWay">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Screen Shot 2022-08-18 at 2.07.52 PM" translatesAutoresizingMaskIntoConstraints="NO" id="txG-RB-Gm2" customClass="PathWay">
                                         <rect key="frame" x="-7" y="280" width="434" height="941"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="941" id="gQz-M6-lpz"/>
+                                        </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.left" catalog="system" id="7UF-Z1-DvK">
                                         <rect key="frame" x="247" y="1100.5" width="134" height="78"/>
@@ -1197,12 +1011,14 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                                     </imageView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="txG-RB-Gm2" firstAttribute="centerY" secondItem="W4R-Kp-leL" secondAttribute="centerY" id="1nv-pJ-rin"/>
+                                    <constraint firstAttribute="trailing" secondItem="txG-RB-Gm2" secondAttribute="trailing" constant="-13" id="h5c-OZ-1Pg"/>
                                     <constraint firstAttribute="height" constant="1500" id="lpf-jj-yeS"/>
+                                    <constraint firstItem="txG-RB-Gm2" firstAttribute="leading" secondItem="W4R-Kp-leL" secondAttribute="leading" constant="-7" id="plZ-K6-gh2"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="10t-AW-Sti"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="W4R-Kp-leL" firstAttribute="height" secondItem="Cb5-3e-cLl" secondAttribute="height" multiplier="1.67411" id="1ZJ-IT-C7a"/>
                             <constraint firstItem="W4R-Kp-leL" firstAttribute="width" secondItem="Cb5-3e-cLl" secondAttribute="width" id="B4Z-pd-ZHf"/>
@@ -1212,6 +1028,7 @@ Plastics can only be downcycled once or twice before they become unusable, so th
                             <constraint firstItem="bdb-LV-7gH" firstAttribute="top" secondItem="Cb5-3e-cLl" secondAttribute="top" id="oLk-sE-78O"/>
                             <constraint firstItem="bdb-LV-7gH" firstAttribute="trailing" secondItem="10t-AW-Sti" secondAttribute="trailing" id="x4D-43-gPb"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="10t-AW-Sti"/>
                     </view>
                     <size key="freeformSize" width="414" height="896"/>
                     <connections>
@@ -1224,14 +1041,9 @@ Plastics can only be downcycled once or twice before they become unusable, so th
         </scene>
     </scenes>
     <resources>
+        <image name="45-450759_flat-cartoon-trees-salesforce-twentypine-pine-tree-cartoon (1)" width="978" height="972"/>
         <image name="Image 8-17-22 at 11.48 PM" width="454" height="422"/>
         <image name="Screen Shot 2022-08-18 at 2.07.52 PM" width="540" height="1128"/>
-        <image name="arrow.left" catalog="system" width="128" height="98"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="arrow.left" catalog="system" width="64" height="48"/>
     </resources>
 </document>
