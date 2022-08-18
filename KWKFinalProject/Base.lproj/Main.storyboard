@@ -147,7 +147,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVM-b9-ZCh">
                                                 <rect key="frame" x="86" y="682" width="242" height="432"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Eco-Friendly Materials
+                                                <string key="text">Eco-Friendly Materials
 Fashion, especially fast-producing brands like Shein, contribute to a large amount of waste during creation and after disposal. Items that require chemical treatment, petroleum drilling, or cannot be degraded naturally lead to pollution, gas emissions, and environmental decay. 
 
 Here is a list of sustainable materials to keep in mind while shopping!
@@ -166,7 +166,7 @@ Outerknown
 Everlane
 Nudie Jeans
 Organic Basics
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -204,11 +204,11 @@ Organic Basics
         <scene sceneID="SeB-4C-c1g">
             <objects>
                 <viewController id="3al-q9-fxa" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zz5-U0-QF7">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="zz5-U0-QF7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBc-Ew-TV7">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QBc-Ew-TV7">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UDl-ya-wup">
@@ -296,11 +296,11 @@ Organic Basics
         <scene sceneID="4Gm-dM-Vhn">
             <objects>
                 <viewController id="1Rj-h4-Wnr" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eee-d7-lYy">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="eee-d7-lYy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8CZ-PE-vt4">
@@ -455,16 +455,21 @@ Organic Basics
         <scene sceneID="17p-XW-L4H">
             <objects>
                 <viewController id="LN1-4E-Daw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Cb5-3e-cLl">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Cb5-3e-cLl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-LV-7gH">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-LV-7gH">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W4R-Kp-leL">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled design" translatesAutoresizingMaskIntoConstraints="NO" id="txG-RB-Gm2">
+                                        <rect key="frame" x="8" y="299" width="406" height="903"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1500" id="lpf-jj-yeS"/>
                                 </constraints>
@@ -486,7 +491,7 @@ Organic Basics
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jnD-VE-bi9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3204" y="1773"/>
+            <point key="canvasLocation" x="2498.5507246376815" y="1579.6875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="w1i-Wy-urr">
@@ -832,11 +837,11 @@ Organic Basics
         <scene sceneID="z0w-qV-zJn">
             <objects>
                 <viewController id="E17-Xs-Cy2" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lvl-tY-LIm">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="lvl-tY-LIm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xc9-SX-GOP">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xc9-SX-GOP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1sz-PT-cWw">
@@ -955,11 +960,11 @@ Plastics can only be downcycled once or twice before they become unusable, so th
         <scene sceneID="wjF-cj-CAw">
             <objects>
                 <viewController id="7DG-36-xVj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rPj-Ni-F8U">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="rPj-Ni-F8U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9f5-yc-dH2">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9f5-yc-dH2">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VFg-h5-vGZ">
@@ -1017,6 +1022,7 @@ Plastics can only be downcycled once or twice before they become unusable, so th
     </scenes>
     <resources>
         <image name="Image 8-17-22 at 11.48 PM" width="454" height="422"/>
+        <image name="Untitled design" width="1728" height="2304"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
