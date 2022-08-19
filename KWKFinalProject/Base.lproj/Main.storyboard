@@ -242,6 +242,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cg-ay-WjD">
+                                        <rect key="frame" x="360" y="1106" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt;"/>
+                                        <connections>
+                                            <segue destination="oum-wL-TYq" kind="show" id="Hbp-DL-z2f"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -482,6 +490,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfV-t3-9GJ">
+                                        <rect key="frame" x="368" y="1098" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt;"/>
+                                        <connections>
+                                            <segue destination="0Ex-Uh-euj" kind="show" id="aFX-xc-17o"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -501,7 +517,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2DT-vq-J4R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5154" y="99"/>
+            <point key="canvasLocation" x="5153.6231884057979" y="98.4375"/>
         </scene>
         <!--Challenges2-->
         <scene sceneID="tDh-sj-eSp">
@@ -734,6 +750,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZX2-18-sES">
+                                        <rect key="frame" x="362" y="1110" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt;"/>
+                                        <connections>
+                                            <segue destination="Yy2-cf-cKy" kind="show" id="kmF-UB-aze"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -903,6 +927,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhT-cL-yqS">
+                                        <rect key="frame" x="376" y="1103" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt;"/>
+                                        <connections>
+                                            <segue destination="7DG-36-xVj" kind="show" id="fNO-Og-juq"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -1093,8 +1125,12 @@
         <image name="Image 8-17-22 at 11.48 PM" width="454" height="422"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="fNO-Og-juq"/>
         <segue reference="MBB-P9-dUn"/>
+        <segue reference="kmF-UB-aze"/>
         <segue reference="1Gc-tS-1BH"/>
+        <segue reference="aFX-xc-17o"/>
         <segue reference="qqz-rq-cEo"/>
+        <segue reference="Hbp-DL-z2f"/>
     </inferredMetricsTieBreakers>
 </document>
