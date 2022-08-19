@@ -142,7 +142,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="3al-q9-fxa" kind="show" id="092-M9-fs8"/>
+                                                    <segue destination="3al-q9-fxa" kind="show" id="Gqq-W7-KzN"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Fashion!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGs-Xo-pgD">
@@ -263,9 +263,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="od0-XW-VnC"/>
                     <size key="freeformSize" width="414" height="896"/>
-                    <connections>
-                        <outlet property="FashionInfo" destination="8sZ-AK-GSn" id="4uB-be-FVq"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3E-Or-g8x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
