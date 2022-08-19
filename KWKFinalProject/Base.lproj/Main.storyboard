@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTq-lo-QMh">
@@ -37,6 +37,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="AWM-ZG-ii2"/>
+                    <navigationItem key="navigationItem" id="UHh-nb-83N"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -336,6 +337,14 @@
                                             <action selector="buttonTapped:" destination="oum-wL-TYq" eventType="touchUpInside" id="epA-yU-DNn"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pyi-R2-h2x">
+                                        <rect key="frame" x="356" y="1097" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt;"/>
+                                        <connections>
+                                            <segue destination="1Rj-h4-Wnr" kind="show" id="qqz-rq-cEo"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -564,6 +573,14 @@
                                         <state key="normal" title="Submit"/>
                                         <connections>
                                             <action selector="buttonTapped:" destination="0Ex-Uh-euj" eventType="touchUpInside" id="ttR-vY-rnX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcb-xd-YD1">
+                                        <rect key="frame" x="354" y="1099" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt;"/>
+                                        <connections>
+                                            <segue destination="2hk-er-oyK" kind="show" id="1Gc-tS-1BH"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -812,6 +829,14 @@
                                             <action selector="buttonTapped:" destination="Yy2-cf-cKy" eventType="touchUpInside" id="9zN-ZP-5P0"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSt-1M-rHQ">
+                                        <rect key="frame" x="368" y="1088" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt;"/>
+                                        <connections>
+                                            <segue destination="5Qn-iv-F2E" kind="show" id="MBB-P9-dUn"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -1036,6 +1061,14 @@
                                             <action selector="buttonTapped:" destination="oum-wL-TYq" eventType="touchUpInside" id="yp1-9H-uA5"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9g-ZE-abw">
+                                        <rect key="frame" x="354" y="985" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="&gt;"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="ZDZ-gX-9M4"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -1059,4 +1092,9 @@
         <image name="45-450759_flat-cartoon-trees-salesforce-twentypine-pine-tree-cartoon (1)" width="978" height="972"/>
         <image name="Image 8-17-22 at 11.48 PM" width="454" height="422"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="MBB-P9-dUn"/>
+        <segue reference="1Gc-tS-1BH"/>
+        <segue reference="qqz-rq-cEo"/>
+    </inferredMetricsTieBreakers>
 </document>
