@@ -62,6 +62,9 @@
                                         <state key="normal" title="Transportation">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="2hk-er-oyK" kind="show" id="Gke-hP-O5r"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6RT-nT-K5B">
                                         <rect key="frame" x="67" y="519" width="269" height="67"/>
@@ -71,6 +74,9 @@
                                         <state key="normal" title="Food">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="1Rj-h4-Wnr" kind="show" id="dAJ-7C-PUe"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dh1-Yy-WRz">
                                         <rect key="frame" x="67" y="402" width="268" height="70"/>
@@ -80,6 +86,9 @@
                                         <state key="normal" title="Fashion">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Ioi-at-sH7" kind="show" id="JN7-v8-3Ua"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L84-Kd-w1n">
                                         <rect key="frame" x="65" y="758" width="269" height="75"/>
@@ -89,6 +98,9 @@
                                         <state key="normal" title="Upcycling/DIY">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="5Qn-iv-F2E" kind="show" id="eFF-dB-Stw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -110,11 +122,11 @@
             <objects>
                 <viewController id="Ioi-at-sH7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l5i-Ym-9Md">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vTY-f0-cPa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82J-4z-nj4">
                                         <rect key="frame" x="0.0" y="-303" width="414" height="1500"/>
@@ -255,10 +267,10 @@
             </objects>
             <point key="canvasLocation" x="2298.5507246376815" y="135.9375"/>
         </scene>
-        <!--View Controller-->
+        <!--Challenges1-->
         <scene sceneID="M0t-v9-VfR">
             <objects>
-                <viewController id="oum-wL-TYq" sceneMemberID="viewController">
+                <viewController id="oum-wL-TYq" customClass="Challenges1" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ixy-4W-Jcq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,13 +307,6 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tXU-ve-KyR">
-                                        <rect key="frame" x="184" y="1044" width="49" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="button:" destination="XJg-dV-3tj" eventType="valueChanged" id="8gy-SB-mm6"/>
-                                        </connections>
-                                    </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6m-2M-041">
                                         <rect key="frame" x="29" y="824" width="357" height="165"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -318,6 +323,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7B-BZ-L3b">
+                                        <rect key="frame" x="196" y="1056" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Yes"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="XJg-dV-3tj" eventType="touchUpInside" id="xfP-nd-9HG"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -334,25 +347,28 @@
                     </view>
                     <navigationItem key="navigationItem" id="f2L-8p-hpS"/>
                     <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <segue destination="wWf-hX-L3R" kind="show" identifier="GoToFirstChallenge" id="Efk-az-6J3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddr-FV-bfm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="XJg-dV-3tj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3037.68115942029" y="135.9375"/>
+            <point key="canvasLocation" x="3017" y="136"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Gm-dM-Vhn">
             <objects>
                 <viewController id="1Rj-h4-Wnr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eee-d7-lYy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-Cf-m9o">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8CZ-PE-vt4">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <rect key="frame" x="0.0" y="-302" width="414" height="1446"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOa-Oz-0Rj">
                                         <rect key="frame" x="69" y="625" width="273" height="117"/>
@@ -473,10 +489,38 @@
             </objects>
             <point key="canvasLocation" x="4469.5652173913049" y="135.9375"/>
         </scene>
-        <!--View Controller-->
+        <!--Counter View Controller-->
+        <scene sceneID="jmf-xM-8ED">
+            <objects>
+                <viewController id="wWf-hX-L3R" customClass="CounterViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9sV-Dk-9d1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Counter: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaV-35-7y6">
+                                <rect key="frame" x="167" y="372" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4IQ-by-vGm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fEM-vF-8J2"/>
+                    <connections>
+                        <outlet property="Counter" destination="OaV-35-7y6" id="ieK-WD-PjV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kdu-Qg-eDQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5278" y="137"/>
+        </scene>
+        <!--Challenges2-->
         <scene sceneID="tDh-sj-eSp">
             <objects>
-                <viewController id="0Ex-Uh-euj" sceneMemberID="viewController">
+                <viewController id="0Ex-Uh-euj" customClass="Challenges2" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2VV-JT-sFV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -499,7 +543,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4O-07-8cc">
-                                        <rect key="frame" x="29" y="845" width="356" height="150"/>
+                                        <rect key="frame" x="29" y="845" width="363" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.8513739722" green="0.87458693279999999" blue="0.92506176230000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Grow a vegetable: This challenge could take a while. Plant a vegetable from seed. Depending on the vegetable, this could take 1-6 months! Consider what vegetables are local to your area and try planting those. </string>
@@ -507,14 +551,6 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eSg-eR-5Og">
-                                        <rect key="frame" x="184" y="1067" width="49" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="button:" destination="XJg-dV-3tj" eventType="valueChanged" id="2uq-Lj-Xoj"/>
-                                            <action selector="button:" destination="E6P-Yb-mQc" eventType="valueChanged" id="pzl-L7-y8U"/>
-                                        </connections>
-                                    </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2T-OT-jHN">
                                         <rect key="frame" x="123" y="1014" width="165" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -539,6 +575,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRE-i5-wCR">
+                                        <rect key="frame" x="195" y="1066" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Yes"/>
+                                        <connections>
+                                            <action selector="buttonPressed2:" destination="E6P-Yb-mQc" eventType="touchUpInside" id="tLR-Q7-rHR"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -548,6 +592,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="QcN-Sf-iUE"/>
                     <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <segue destination="wWf-hX-L3R" kind="show" identifier="GoToSecondChallenge" id="vlq-z8-5Oy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYY-6E-Jim" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="E6P-Yb-mQc" userLabel="Exit" sceneMemberID="exit"/>
@@ -559,7 +606,7 @@
             <objects>
                 <viewController id="2hk-er-oyK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5BH-CF-pi6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-3w-Qu5">
@@ -702,10 +749,10 @@
             </objects>
             <point key="canvasLocation" x="1589.8550724637682" y="892.63392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Challenges3-->
         <scene sceneID="GTJ-fp-Mgp">
             <objects>
-                <viewController id="Yy2-cf-cKy" sceneMemberID="viewController">
+                <viewController id="Yy2-cf-cKy" customClass="Challenges3" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IHk-ui-jgm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -741,10 +788,6 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9s2-X9-LPZ">
-                                        <rect key="frame" x="170" y="1027" width="49" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VR-5v-WCI">
                                         <rect key="frame" x="111" y="998" width="165" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -759,6 +802,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFw-xC-YTz">
+                                        <rect key="frame" x="178" y="1054" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Yes"/>
+                                        <connections>
+                                            <action selector="buttonPressed3:" destination="7AU-RX-0fy" eventType="touchUpInside" id="3Gf-oP-D7n"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -775,8 +826,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="5iT-4G-Or3"/>
                     <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <segue destination="wWf-hX-L3R" kind="show" identifier="GoToThirdChallenge" id="bem-M8-MnY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2g-Yw-NmF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="7AU-RX-0fy" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2298.5507246376815" y="892.63392857142856"/>
         </scene>
@@ -847,14 +902,14 @@
             <objects>
                 <viewController id="5Qn-iv-F2E" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="baG-Jz-72q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ny1-4t-Ku8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dxz-mz-SBj">
-                                <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
+                                <rect key="frame" x="0.0" y="-302" width="414" height="1446"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to upcycling!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heh-mu-eV6">
                                         <rect key="frame" x="25" y="313" width="365" height="414"/>
@@ -919,10 +974,10 @@
             </objects>
             <point key="canvasLocation" x="3037.68115942029" y="892.63392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Challenges4-->
         <scene sceneID="wjF-cj-CAw">
             <objects>
-                <viewController id="7DG-36-xVj" sceneMemberID="viewController">
+                <viewController id="7DG-36-xVj" customClass="Challenges4" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rPj-Ni-F8U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -931,15 +986,8 @@
                                 <rect key="frame" x="0.0" y="-190" width="414" height="1500"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bSy-wM-zKm">
-                                        <rect key="frame" x="170" y="972" width="49" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="button:" destination="XJg-dV-3tj" eventType="valueChanged" id="4RC-CO-iqd"/>
-                                        </connections>
-                                    </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Completed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOZ-vX-tqW">
-                                        <rect key="frame" x="125" y="861" width="165" height="174"/>
+                                        <rect key="frame" x="125" y="882" width="165" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -971,6 +1019,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cr-ej-YoR">
+                                        <rect key="frame" x="192" y="945" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Yes"/>
+                                        <connections>
+                                            <action selector="buttonPressed4:" destination="XG4-ZA-ih8" eventType="touchUpInside" id="f4E-mV-gLd"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -980,8 +1036,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="9UR-bz-MMG"/>
                     <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <segue destination="wWf-hX-L3R" kind="show" identifier="GoToLastChallenge" id="6Hf-1L-9mL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AUy-Kl-nMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="XG4-ZA-ih8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4434.7826086956529" y="892.63392857142856"/>
         </scene>
@@ -989,18 +1049,18 @@
         <scene sceneID="17p-XW-L4H">
             <objects>
                 <viewController id="LN1-4E-Daw" customClass="PathwayViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Cb5-3e-cLl">
+                    <view key="view" contentMode="scaleToFill" id="Cb5-3e-cLl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-LV-7gH">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdb-LV-7gH">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </scrollView>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W4R-Kp-leL">
                                 <rect key="frame" x="0.0" y="-302" width="414" height="1500"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Screen Shot 2022-08-18 at 2.07.52 PM" translatesAutoresizingMaskIntoConstraints="NO" id="txG-RB-Gm2" customClass="PathWay">
-                                        <rect key="frame" x="-7" y="280" width="434" height="941"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-18 at 2.07.52 PM" translatesAutoresizingMaskIntoConstraints="NO" id="txG-RB-Gm2" customClass="PathWay">
+                                        <rect key="frame" x="-7" y="279.5" width="434" height="941"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="941" id="gQz-M6-lpz"/>
                                         </constraints>
@@ -1046,4 +1106,7 @@
         <image name="Screen Shot 2022-08-18 at 2.07.52 PM" width="540" height="1128"/>
         <image name="arrow.left" catalog="system" width="64" height="48"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="6Hf-1L-9mL"/>
+    </inferredMetricsTieBreakers>
 </document>
