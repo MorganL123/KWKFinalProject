@@ -26,7 +26,7 @@ class Challenges4: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier = "GoToFirstChallenge" as String {
+        if segue.identifier == "GoToFirstChallenge" as String {
             let destinationVC = segue.destination as? CounterViewController
     }
     /*
