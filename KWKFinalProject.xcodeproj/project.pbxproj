@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B25124BE28AFDFCB0066D923 /* Challenges1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25124BD28AFDFCB0066D923 /* Challenges1.swift */; };
+		B25124C028AFE6630066D923 /* Challenges4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25124BF28AFE6630066D923 /* Challenges4.swift */; };
 		B2A30E2128AEE7DB00CA9837 /* FashionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A30E2028AEE7DB00CA9837 /* FashionInfoViewController.swift */; };
 		B2A30E2328AF41EC00CA9837 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A30E2228AF41EC00CA9837 /* CounterViewController.swift */; };
 		B2A30E2728AF45C200CA9837 /* Challenges2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A30E2628AF45C200CA9837 /* Challenges2.swift */; };
 		B2A30E2928AF45EC00CA9837 /* Challenges3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A30E2828AF45EC00CA9837 /* Challenges3.swift */; };
-		B2A30E2B28AF460C00CA9837 /* Challenges4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A30E2A28AF460C00CA9837 /* Challenges4.swift */; };
-		B2A30E2D28AF465B00CA9837 /* Challenges1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A30E2C28AF465B00CA9837 /* Challenges1.swift */; };
 		B2C2D99928AC1B3100DCABA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2D99828AC1B3100DCABA3 /* AppDelegate.swift */; };
 		B2C2D99B28AC1B3100DCABA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2D99A28AC1B3100DCABA3 /* SceneDelegate.swift */; };
 		B2C2D99D28AC1B3100DCABA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2D99C28AC1B3100DCABA3 /* ViewController.swift */; };
@@ -25,12 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B25124BD28AFDFCB0066D923 /* Challenges1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges1.swift; sourceTree = "<group>"; };
+		B25124BF28AFE6630066D923 /* Challenges4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges4.swift; sourceTree = "<group>"; };
 		B2A30E2028AEE7DB00CA9837 /* FashionInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionInfoViewController.swift; sourceTree = "<group>"; };
 		B2A30E2228AF41EC00CA9837 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		B2A30E2628AF45C200CA9837 /* Challenges2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges2.swift; sourceTree = "<group>"; };
 		B2A30E2828AF45EC00CA9837 /* Challenges3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges3.swift; sourceTree = "<group>"; };
-		B2A30E2A28AF460C00CA9837 /* Challenges4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges4.swift; sourceTree = "<group>"; };
-		B2A30E2C28AF465B00CA9837 /* Challenges1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges1.swift; sourceTree = "<group>"; };
 		B2C2D99528AC1B3100DCABA3 /* KWKFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWKFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C2D99828AC1B3100DCABA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C2D99A28AC1B3100DCABA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 		B2C2D98C28AC1B3100DCABA3 = {
 			isa = PBXGroup;
 			children = (
-				B2A30E2C28AF465B00CA9837 /* Challenges1.swift */,
-				B2A30E2A28AF460C00CA9837 /* Challenges4.swift */,
+				B25124BF28AFE6630066D923 /* Challenges4.swift */,
+				B25124BD28AFDFCB0066D923 /* Challenges1.swift */,
 				B2A30E2228AF41EC00CA9837 /* CounterViewController.swift */,
 				B2A30E2628AF45C200CA9837 /* Challenges2.swift */,
 				B2A30E2828AF45EC00CA9837 /* Challenges3.swift */,
@@ -172,10 +172,10 @@
 				B2A30E2128AEE7DB00CA9837 /* FashionInfoViewController.swift in Sources */,
 				B2A30E2728AF45C200CA9837 /* Challenges2.swift in Sources */,
 				EFAC971628AEBB04002F1710 /* PathwayViewController.swift in Sources */,
-				B2A30E2D28AF465B00CA9837 /* Challenges1.swift in Sources */,
+				B25124BE28AFDFCB0066D923 /* Challenges1.swift in Sources */,
 				B2A30E2328AF41EC00CA9837 /* CounterViewController.swift in Sources */,
 				B2C2D9B028ADEB6600DCABA3 /* TransportationInfoViewController.swift in Sources */,
-				B2A30E2B28AF460C00CA9837 /* Challenges4.swift in Sources */,
+				B25124C028AFE6630066D923 /* Challenges4.swift in Sources */,
 				B2C2D99B28AC1B3100DCABA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

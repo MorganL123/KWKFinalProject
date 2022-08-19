@@ -9,26 +9,24 @@
 import UIKit
 
 class Challenges4: UIViewController {
-    
-    var score = 0
 
+    @IBOutlet weak var Question: UILabel!
+    
+    @IBOutlet weak var textField: UITextField!
     override func viewDidLoad() {
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    @IBAction func buttonPressed4(_ sender: UIButton) {
-        if sender.titleLabel!.text == "Yes" {
-            score = score + 1
-        }
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        if let newTitle = textField.text {
+        Question.text = "You completed \(newTitle) challenge"
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "GoToFirstChallenge" as String {
-            let destinationVC = segue.destination as? CounterViewController
-    }
+
     /*
     // MARK: - Navigation
 
@@ -40,4 +38,6 @@ class Challenges4: UIViewController {
     */
 
 }
+
+
 }
